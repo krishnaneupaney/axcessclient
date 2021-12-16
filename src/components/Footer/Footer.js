@@ -65,7 +65,7 @@ function Footer() {
             <FooterLink to='/'>Contact Us</FooterLink>
             <FooterLink to='/'>Lenders</FooterLink>
             <FooterLink to='/'>Compliance</FooterLink>
-            <FooterLink to='/'>Influencer</FooterLink>
+            <FooterLink to='/'>Finance</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
