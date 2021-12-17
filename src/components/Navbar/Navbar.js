@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { Button } from '../../globalStyles';
-import {animateScroll as scroll} from 'react-scroll';
 import {
   Nav,
   NavbarContainer,
@@ -23,16 +22,6 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const [scrollNav, setScrollNav] = useState(false)
-
-  const changeNav = () => {
-      if(window.scrollY >= 80){
-          setScrollNav(true)
-      } else {
-          setScrollNav(false)
-      }
-  }
-
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -45,52 +34,33 @@ function Navbar() {
     showButton();
   }, []);
 
-  const toggleHome = () => {
-    scroll.scrollToTop();
-};
-
   window.addEventListener('resize', showButton);
 
   return (
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
-        <Nav scrollNav={scrollNav}>
+        <Nav>
           <NavbarContainer>
-            <NavLogo to='/' onClick={closeMobileMenu, toggleHome}>
+            <NavLogo to='/' onClick={closeMobileMenu}>
               <NavIcon />
               Axcess Fund
             </NavLogo>
-            <MobileIcon onClick={handleClick, toggleHome}>
+            <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to='/' onClick={closeMobileMenu}
-                smooth={true} 
-                duration={500} 
-                spy={true} 
-                exact='true' 
-                offset={-80} >
+                <NavLinks to='/' onClick={closeMobileMenu}>
                   Home
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/services' onClick={closeMobileMenu}
-                smooth={true} 
-                duration={500} 
-                spy={true} 
-                exact='true' 
-                offset={-80}>
+                <NavLinks to='/services' onClick={closeMobileMenu}>
                   Services
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/products' onClick={closeMobileMenu}
-                smooth={true} 
-                duration={500} 
-                spy={true} 
-                exact='true' 
-                offset={-80}>
+                <NavLinks to='/products' onClick={closeMobileMenu}>
                   Products
                 </NavLinks>
               </NavItem>

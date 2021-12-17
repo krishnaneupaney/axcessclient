@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
 export const Nav = styled.nav`
-background: ${({ scrollNav }) => (scrollNav ? '#fff' : 'orange')};
+  background: #101522;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -12,8 +12,6 @@ background: ${({ scrollNav }) => (scrollNav ? '#fff' : 'orange')};
   font-size: 1.2rem;
   position: sticky;
   top: 0;
-  margin-top: -80px;
-  crusor: pointer;
   z-index: 999;
 `;
 
