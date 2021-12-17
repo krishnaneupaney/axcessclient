@@ -8,8 +8,10 @@ const About = () => {
         <>
 
         <div>
-            <h1>About US</h1>
-            <h2>We are we?</h2>
+            <h1>Vision</h1>
+            <h2>Our vision is to not let any families lose their home just because of nonpayments temporarily! 
+                <br />
+                We believe everyone should have Axcess to safe home filled with love and joy!</h2>
         </div>
         <InfoSection {...homeObjSeven} />
         <InfoSection {...homeObjTen} />
