@@ -7,6 +7,7 @@ import SignUp from './pages/SignUp/SignUp';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import { Navbar, Footer } from './components';
+import About from './pages/SignUp/About';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/services' component={Services} />
         <Route path='/products' component={Products} />
         <Route path='/sign-up' component={SignUp} />
+        <Route path='/about' component={About} />
       </Switch>
       <Footer />
     </Router>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { Button } from '../../globalStyles';
+import { SiAlitalia } from "react-icons/si";
 import {
   Nav,
   NavbarContainer,
@@ -43,7 +44,7 @@ function Navbar() {
           <NavbarContainer>
             <NavLogo to='/' onClick={closeMobileMenu}>
               <NavIcon />
-              Axcess Fund
+              xcess Fund
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -62,6 +63,11 @@ function Navbar() {
               <NavItem>
                 <NavLinks to='/products' onClick={closeMobileMenu}>
                   Products
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to='/about' onClick={closeMobileMenu}>
+                  About Us
                 </NavLinks>
               </NavItem>
               <NavItemBtn>

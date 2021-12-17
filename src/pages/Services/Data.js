@@ -39,7 +39,19 @@ export const homeObjSeven = {
   img: require('../../images/svg-1.svg'),
   alt: 'Vault'
 };
-
+export const homeObjTen = {
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Choices are not always clear but at Axcess Fund, ',
+  headline: 'The choice is clear',
+  description:
+    "Late fees? Hidden charges? Sneaky fine print? No thanks, we’ll leave those to the credit card companies. At Affirm, we like to keep it real—and that means no fees, no gotchas, and no regrets.",
+  buttonLabel: 'Get prequalified',
+  imgStart: 'start',
+  img: require('../../images/3.svg'),
+  alt: 'Vault'
+};
 export const homeObjFour = {
   lightBg: false,
   lightText: true,

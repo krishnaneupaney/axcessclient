@@ -6,14 +6,9 @@ import Sidebar from '../../components/Sidebar';
 
 
 function Home() {
-  // const [isOpen, setIsOpen] = useState(false)
 
-  //   const toggle = () => {
-  //       setIsOpen(!isOpen)
-  //   }
   return (
     <>
-      {/* <Sidebar isOpen={isOpen} toggle={toggle}/> */}
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjTwo} />
