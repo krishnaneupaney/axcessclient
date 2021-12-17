@@ -6,7 +6,7 @@ import { SiExpo } from "react-icons/si";
  
 
 export const Nav = styled.nav`
-  background: #101522;
+  background: orange;
   height: 80px;
   display: flex;
   justify-content: center;
