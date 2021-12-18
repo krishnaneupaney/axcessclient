@@ -7,10 +7,10 @@ export const homeObjOne = {
   topLine: 'Welcome to Axcessible Premium Lending',
   headline: 'Get funded to pay essential bills. Pay at your own pace!',
   description:
-    'Millions of families are evicted every years. Over 6 millions adults are behind on rent/mortgage payment. Our vision is to not let any families lose home because of nonpayment.',
+    'Millions of families are evicted every years. Over 40% Americans are behind on rent/mortgage payment and will face Eviction!. Our vision is to not let any families lose home because of nonpayment.',
   buttonLabel: 'Get Started',
   imgStart: '',
-  img: require('../../images/svg-1.svg'),
+  img: require('../../images/risk.jpeg'),
   alt: 'Credit Card',
   start: ''
 };
@@ -22,9 +22,9 @@ export const homeObjTwo = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'Easy Signups & Instant Decision',
-  headline: 'Extremely quick onboarding process and get funded in minutes!',
+  headline: 'Extremely quick funding process to get money to pay bills in minutes!',
   description:
-    "Our process is so simply, after sharing some personal information, you'll be able to see instantly how much you've been approved and instanly pay bill directly through the the portal!",
+    "Our process is so simply, after sharing some personal information, you'll be able to see instantly how much you've been approved and instanly pay bill directly through the the portal! We do the heavy lifting so you don't have to!",
   buttonLabel: 'Learn More',
   imgStart: '',
   img: require('../../images/svg-2.svg'),
@@ -62,7 +62,7 @@ export const homeObjThree = {
     "Axcess Fund helps families keep family together during difficult time by providing platform to get instant funding to pay the essential bills so they can focus on what matter to them, themselves!",
   buttonLabel: 'How this work?',
   imgStart: 'start',
-  img: require('../../images/3.svg'),
+  img: require('../../images/stat.jpeg'),
   alt: 'Vault',
   start: 'true'
 };

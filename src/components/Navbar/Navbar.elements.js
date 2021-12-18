@@ -36,7 +36,8 @@ export const NavLogo = styled(Link)`
 `;
 
 export const NavIcon = styled(SiExpo)`
-  margin-right: 0.2rem;
+  margin-right: 0.1rem;
+  padding-bottom: 2px;
 `;
 
 

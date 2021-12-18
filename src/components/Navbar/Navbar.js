@@ -13,7 +13,8 @@ import {
   NavItem,
   NavItemBtn,
   NavLinks,
-  NavBtnLink
+  NavBtnLink,
+  Img
 } from './Navbar.elements';
 
 function Navbar() {
