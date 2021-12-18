@@ -7,7 +7,7 @@ export const homeObjOne = {
   topLine: 'Welcome to Axcessible Premium Lending',
   headline: 'Get funded to pay essential bills. Pay at your own pace!',
   description:
-    'Millions of families are evicted every years. Over 40% Americans are behind on rent/mortgage payment and will face Eviction!. Our vision is to not let any families lose home because of nonpayment.',
+    'Millions of families are evicted every years. In a typical year, landlords file 3.7 million eviction cases. Our vision is to stop every eviction and to keep families together!',
   buttonLabel: 'Get Started',
   imgStart: '',
   img: require('../../images/risk.jpeg'),
