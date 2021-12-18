@@ -33,10 +33,10 @@ export const homeObjSeven = {
   topLine: 'Our Missions',
   headline: 'is what moves us FORWARD',
   description:
-    "Our mission at AxcessFund has been to deliver genuine financial products that improve lives of people we serve! That mission will never change!",
+    "Our mission at AxcessFund has been to deliver genuine financial products that improve lives of people we serve! That mission will never change! We want to keep every families together!",
   buttonLabel: 'Get Started',
   imgStart: 'start',
-  img: require('../../images/evic.png'),
+  img: require('../../images/family.png'),
   alt: 'Vault'
 };
 export const homeObjTen = {
