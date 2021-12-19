@@ -49,23 +49,23 @@ function Footer() {
             <FooterLink to='/sign-up'>How it works</FooterLink>
             <FooterLink to='/'>Careers</FooterLink>
             <FooterLink to='/'>Investors</FooterLink>
-            <FooterLink to='/'>Terms of Service</FooterLink>
+            <FooterLink to='/terms'>Terms of Service</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Consumer</FooterLinkTitle>
             <FooterLink to='/'>Contact</FooterLink>
             <FooterLink to='/sign-up'>Waitlist</FooterLink>
             <FooterLink to='/'>Help</FooterLink>
-            <FooterLink to='/'>Legal</FooterLink>
+            <FooterLink to='/privacy'>Privacy</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>Partner</FooterLinkTitle>
             <FooterLink to='/'>Contact Us</FooterLink>
-            <FooterLink to='/'>Lenders</FooterLink>
-            <FooterLink to='/'>Compliance</FooterLink>
-            <FooterLink to='/'>Finance</FooterLink>
+            <FooterLink to='/lenders'>Lenders</FooterLink>
+            <FooterLink to='/licenses'>Licenses</FooterLink>
+            <FooterLink to='/terms'>Terms</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
@@ -103,7 +103,7 @@ function Footer() {
             <SocialIconLink href='twitter.com' target='_blank' aria-label='Twitter'>
               <FaTwitter />
             </SocialIconLink>
-            <SocialIconLink href='https://www.linkedin.com/in/krishna-neupaney-8b560962/' target='_blank' aria-label='LinkedIn'>
+            <SocialIconLink href='https://www.linkedin.com/company/axcessfund/' target='_blank' aria-label='LinkedIn'>
               <FaLinkedin />
             </SocialIconLink>
           </SocialIcons>
