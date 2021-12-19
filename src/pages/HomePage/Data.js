@@ -27,6 +27,7 @@ export const homeObjTwo = {
     "Our process is so simply, after sharing some personal information, you'll be able to see instantly how much you've been approved and instanly pay bill directly through the the portal! We do the heavy lifting so you don't have to!",
   buttonLabel: 'Learn More',
   imgStart: '',
+  img: require('../../images/svg-2.svg'),
   alt: 'Vault',
   start: ''
 };
