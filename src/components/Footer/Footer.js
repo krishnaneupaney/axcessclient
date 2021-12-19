@@ -49,7 +49,7 @@ function Footer() {
             <FooterLink to='/sign-up'>How it works</FooterLink>
             <FooterLink to='/'>Careers</FooterLink>
             <FooterLink to='/'>Investors</FooterLink>
-            <FooterLink to='/terms'>Terms of Service</FooterLink>
+            <FooterLink to='/why'>Our Why</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Consumer</FooterLinkTitle>

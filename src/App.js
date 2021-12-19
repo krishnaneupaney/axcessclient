@@ -12,6 +12,7 @@ import Lenders from './pages/SignUp/Lenders';
 import Terms from './pages/SignUp/Terms';
 import Privacy from './pages/SignUp/Privacy';
 import License from './pages/SignUp/License';
+import Ourwhy from './pages/SignUp/Ourwhy';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='/terms' component={Terms} />
         <Route path='/privacy' component={Privacy} />
         <Route path='/licenses' component={License} />
+        <Route path='/why' component={Ourwhy} />
       </Switch>
       
       <Footer /><Sidebar />
