@@ -35,7 +35,7 @@ export const homeObjSeven = {
   headline: 'Our mission moves us FORWARD - to deliver genuine financial products that improves lives',
   description:
     "Why? Because home matters. Home is where families thrive. But money is also a fundamental ingredient of life, and unlesss you're one of the few percent of Americans with significant wealth, the ability to borrow affects you everyday. Throughout history, affordable lending has been central to unlocking mobility and opportunity - especially for thoise in need!",
-  buttonLabel: 'Get Started',
+  buttonLabel: 'Check your rate',
   imgStart: '',
   img: require('../../images/family.png'),
   alt: 'Vault'
