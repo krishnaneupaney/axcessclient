@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Button } from '../../globalStyles';
+import Video from '../../Video/chart.mp4';
 import {
   InfoSec,
   InfoRow,
@@ -10,7 +11,8 @@ import {
   Heading,
   Subtitle,
   ImgWrapper,
-  Img
+  Img,
+  VideoBg
 } from './InfoSection.elements';
 
 function InfoSection({

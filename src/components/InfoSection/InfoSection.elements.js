@@ -61,7 +61,7 @@ export const Img = styled.img`
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
-  max-height: 620px;
+  max-height: 720px;
 `;
 
 export const Heading = styled.h1`
@@ -78,4 +78,11 @@ export const Subtitle = styled.p`
   font-size: 18px;
   line-height: 24px;
   color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
+`;
+export const VideoBg = styled.video`
+    width: 40%;
+    height: 30%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background: #222a34;
 `;

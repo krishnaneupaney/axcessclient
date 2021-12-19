@@ -54,6 +54,19 @@ export const homeObjTwelve = {
   img: require('../../images/fast.webp'),
   alt: 'Vault'
 };
+
+export const homeObjThirteen = {
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: '',
+  headline: 'The system improves constantly,',
+  description:
+    "learning and optimizing in response tsddddo daily loan-level repayment history and deliquency data",
+  buttonLabel: 'Get Started',
+  alt: 'Vault'
+};
+
 export const homeObjTen = {
   lightBg: true,
   lightText: false,
@@ -72,16 +85,29 @@ export const homeObjEleven = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Other lenders are not always clear but at Axcess Fund, ',
-  headline: 'The choice is clear! We need to solve this issue together!',
+  headline: 'The choice is clear!',
   description:
     "Late fees? Hidden charges? Sneaky fine print? No thanks, we’ll leave those to the credit card companies. At Axcess Fund, we like to keep it real—and that means no fees, no gotchas, and no regrets. We're here to solve this by leveraging technology while keeping families together!",
   buttonLabel: 'Get prequalified',
   imgStart: 'start',
-  img: require('../../images/stop.webp'),
+  img: require('../../images/finance.png'),
   alt: 'Vault'
 };
 
- 
+export const homeObjFourteen = {
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Other lenders are not always clear but at Axcess Fund, ',
+  headline: 'AI has the opportunity to improve most types of lending globally',
+  description:
+    "over the next decade. While AxcessFund is focused today on the US consumer market, similar lending techniques can be applied to all credit markets to empower those in need!",
+  buttonLabel: 'Get prequalified',
+  imgStart: 'start',
+  img: require('../../images/chip.png'),
+  alt: 'Vault'
+};
+
 export const homeObjFour = {
   lightBg: false,
   lightText: true,
