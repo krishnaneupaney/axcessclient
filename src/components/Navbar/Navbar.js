@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import { Button } from '../../globalStyles';
-import { SiAlitalia } from "react-icons/si";
+import { Button, Buttonn } from '../../globalStyles';
+import { useAuth0 } from "@auth0/auth0-react";
 import {
   Nav,
   NavbarContainer,
@@ -36,7 +36,10 @@ function Navbar() {
     showButton();
   }, []);
 
-  window.addEventListener('resize', showButton);
+  const LoginButton = () => {
+    const { loginWithRedirect } = useAuth0();
+
+  window.addEventListener('resize', showButton);}
 
   return (
     <>
@@ -73,15 +76,32 @@ function Navbar() {
               </NavItem>
               <NavItemBtn>
                 {button ? (
-                  <NavBtnLink to='/sign-up'>
-                    <Button primary>SIGN UP</Button>
+                  <NavBtnLink to='/login'>
+                    <Buttonn primary>LOGIN</Buttonn>
                   </NavBtnLink>
+                  
                 ) : (
                   <NavBtnLink to='/sign-up'>
+                    <Buttonn onClick={closeMobileMenu} fontBig primary>
+                      Sign Up
+                    </Buttonn>
+                  </NavBtnLink>
+                  
+                )}
+              </NavItemBtn>
+              <NavItemBtn>
+                {button ? (
+                  <NavBtnLink to='/sign-up'>
+                    <Button primary>Sign Up</Button>
+                  </NavBtnLink>
+                  
+                ) : (
+                  <NavBtnLink to='/login'>
                     <Button onClick={closeMobileMenu} fontBig primary>
-                      SIGN UP
+                      LOGIN
                     </Button>
                   </NavBtnLink>
+                  
                 )}
               </NavItemBtn>
             </NavMenu>

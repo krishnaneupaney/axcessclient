@@ -80,7 +80,7 @@ function Footer() {
         <SocialMediaWrap>
           <SocialLogo to='/'>
             <SocialIcon />
-            Axcess Fund
+            xcess Fund
           </SocialLogo>
           <WebsiteRights>Axcess Fund © 2021</WebsiteRights>
           <SocialIcons>

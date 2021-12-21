@@ -159,4 +159,4 @@ Eighteen years later, the court heard the case of Abby Gail Lassiter, a poor bla
     )
 }
 
-export default Ourwhy
+export default Ourwhy;

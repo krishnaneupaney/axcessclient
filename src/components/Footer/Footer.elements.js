@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { FaMagento } from 'react-icons/fa';
+import { SiExpo } from 'react-icons/si';
 import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.div`
@@ -144,8 +144,8 @@ export const SocialLogo = styled(Link)`
   margin-bottom: 16px;
 `;
 
-export const SocialIcon = styled(FaMagento)`
-  margin-right: 10px;
+export const SocialIcon = styled(SiExpo)`
+  margin-right: 1px;
 `;
 
 export const WebsiteRights = styled.small`
