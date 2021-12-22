@@ -3,11 +3,11 @@ export const homeObjOne = {
   lightText: false,
   lightTopLine: false,
   lightTextDesc: false,
-  topLine: 'View Our Services',
-  headline: 'Shop through our catalog of services',
+  topLine: '',
+  headline: 'All-digital AI/ML enabled lending platform',
   description:
-    'We provide All-digital Al-enabled Lending platform so you can get instant funding to pay your bills on time! And once you get funded, you can pay us back in your own term (usually 3 - 48months).',
-  buttonLabel: 'Get Started',
+    'Convert your loyal consumers into paying consumers, grow your consumer service portfolio, and provide remarkable digital-experience!',
+  buttonLabel: 'Get Info',
   imgStart: '',
   img: require('../../images/2.svg'),
   alt: 'Credit Card'

@@ -69,4 +69,27 @@ export const Buttonn = styled.button`
   }
 `;
 
+
+export const Buttoner = styled.button`
+  border-radius: 4px;
+  background: ${({ primary }) => (primary ? 'darkgreen' : '#0467FB')};
+  white-space: nowrap;
+  padding: ${({ big }) => (big ? '8px 44px' : '8px 17px')};
+  color: #fff;
+  font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    transition: all 0.3s ease-out;
+    transform: scale(1.6);
+    background: #fff;
+    background-color: ${({ primary }) => (primary ? '#0467FB' : 'green')};
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+  }
+`;
 export default GlobalStyle;

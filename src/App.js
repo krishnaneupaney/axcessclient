@@ -2,7 +2,7 @@ import React from 'react';
 import GlobalStyle from './globalStyles';
 import Home from './pages/HomePage/Home';
 import Services from './pages/Services/Services';
-import Products from './pages/Products/Products';
+import Lenders from './pages/Lenders/Lenders';
 import SignUp from './pages/SignUp/SignUp';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
@@ -24,10 +24,10 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/services' component={Services} />
-        <Route path='/products' component={Products} />
+        <Route path='/lenders' component={Lenders} />
         <Route path='/sign-up' component={SignUp} />
         <Route path='/about' component={About} />
-        <Route path='/lenders' component={Lender} />
+        <Route path='/lender' component={Lender} />
         <Route path='/terms' component={Terms} />
         <Route path='/privacy' component={Privacy} />
         <Route path='/licenses' component={License} />
