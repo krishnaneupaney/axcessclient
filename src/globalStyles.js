@@ -74,16 +74,15 @@ export const Buttoner = styled.button`
   border-radius: 4px;
   background: ${({ primary }) => (primary ? 'darkgreen' : '#0467FB')};
   white-space: nowrap;
-  padding: ${({ big }) => (big ? '8px 44px' : '8px 17px')};
+  padding: ${({ big }) => (big ? '32px 64px' : '8px 47px')};
   color: #fff;
-  font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
+  font-size: ${({ fontBig }) => (fontBig ? '38px' : '20px')};
   outline: none;
   border: none;
   cursor: pointer;
 
   &:hover {
     transition: all 0.3s ease-out;
-    transform: scale(1.6);
     background: #fff;
     background-color: ${({ primary }) => (primary ? '#0467FB' : 'green')};
   }

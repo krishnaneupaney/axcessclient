@@ -315,7 +315,11 @@ export const PricingCardser = styled(Link)`
     margin: 24px;
   }
 
- 
+  &:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease-out;
+    color: #1c2237;
+  }
 
   @media screen and (max-width: 960px) {
     width: 90%;
@@ -370,7 +374,7 @@ export const PricingCardFeaturessser = styled.li`
 
 
 export const ServicesIconser = styled.img`
-    height: 100px;
+    height: 120px;
     width: 180px;
     margin-bottom: 10px;
 `;

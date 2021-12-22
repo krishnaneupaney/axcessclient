@@ -9,6 +9,12 @@ import { Button, Buttoner } from '../../globalStyles';
 import Icon1 from '../../images/2.svg'
 import Icon2 from '../../images/12.svg'
 import Icon3 from '../../images/3.svg'
+import Icon4 from '../../images/network.png'
+import Icon5 from '../../images/mortgage.png'
+import Icon6 from '../../images/rent.png'
+import Icon7 from '../../images/utilities.png'
+import Icon8 from '../../images/student.png'
+import Icon9 from '../../images/api.png'
 import {
   PricingCards,
   PricingCardInfos,
@@ -149,7 +155,7 @@ const onSubmit = async (e) => {
             <PricingCardser to='/sign-up'>
               <PricingCardInfos>
            
-                  <ServicesIconser src={Icon1} />
+                  <ServicesIconser src={Icon4} />
                 
                 {/* <PricingCardPlans>Grow your customer paying portrfolio</PricingCardPlans>
                 <PricingCardLengths>Grow your payment-conversion and profibility</PricingCardLengths>
@@ -163,7 +169,7 @@ const onSubmit = async (e) => {
             <PricingCardser to='/sign-up'>
               <PricingCardInfos>
            
-                  <ServicesIconser src={Icon2} />
+                  <ServicesIconser src={Icon5} />
                 
                 {/* <PricingCardPlans>Lend more and give flexibility to more creditworthy customers safely</PricingCardPlans>
 
@@ -180,7 +186,7 @@ const onSubmit = async (e) => {
             <PricingCardser to='/sign-up'>
               <PricingCardInfos>
            
-                  <ServicesIconser src={Icon3} />
+                  <ServicesIconser src={Icon6} />
 {/*                 
                 <PricingCardPlan>Deliver 100% all-digital AI/ML-driven smooth experience</PricingCardPlan>
                 <PricingCardLengths>Let your customer borow and pay anytime - anywhere </PricingCardLengths>
@@ -196,7 +202,7 @@ const onSubmit = async (e) => {
             <PricingCardser to='/sign-up'>
               <PricingCardInfoser>
            
-                  <ServicesIconser src={Icon1} />
+                  <ServicesIconser src={Icon7} />
                 
                 {/* <PricingCardPlanser>Grow your customer paying portrfolio</PricingCardPlanser>
                 <PricingCardLengthser>Grow your payment-conversion and profibility</PricingCardLengthser>
@@ -209,7 +215,7 @@ const onSubmit = async (e) => {
             <PricingCardser to='/sign-up'>
               <PricingCardInfoser>
            
-                  <ServicesIconser src={Icon2} />
+                  <ServicesIconser src={Icon8} />
                 
                 {/* <PricingCardPlanser>Lend more and give flexibility to more creditworthy customers safely</PricingCardPlanser>
 
@@ -226,7 +232,7 @@ const onSubmit = async (e) => {
             <PricingCardser to='/sign-up'>
               <PricingCardInfoser>
            
-                  <ServicesIconser src={Icon3} />
+                  <ServicesIconser src={Icon9} />
                 
                 {/* <PricingCardPlanser>Deliver 100% all-digital AI/ML-driven smooth experience</PricingCardPlanser>
                 <PricingCardLengthser>Let your customer borow and pay anytime - anywhere </PricingCardLengthser>
@@ -240,6 +246,10 @@ const onSubmit = async (e) => {
               </PricingCardInfoser>
             </PricingCardser>
           </PricingContainers>  
+          <br />
+          <br />
+          <br />
+          <br />
           <br />
           <br />
           <br />
