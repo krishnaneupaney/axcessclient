@@ -8,7 +8,7 @@ export const homeObjOne = {
     ' When you get funded through AxcessFund, you get real-time decision and always know exactly you"ll owe and when you"ll be done paying. There are no hidden fees - not even late fees.',
   buttonLabel: 'Learn More',
   imgStart: '',
-  img: require('../../images/12.svg'),
+  img: require('../../images/finance.png'),
   alt: 'Credit Card'
 };
 

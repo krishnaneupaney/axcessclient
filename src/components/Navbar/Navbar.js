@@ -18,6 +18,7 @@ import {
 } from './Navbar.elements';
 
 function Navbar() {
+  
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -76,7 +77,7 @@ function Navbar() {
               </NavItem>
               <NavItemBtn>
                 {button ? (
-                  <NavBtnLink to='/login'>
+                  <NavBtnLink to='/auth'>
                     <Buttonn primary>LOGIN</Buttonn>
                   </NavBtnLink>
                   

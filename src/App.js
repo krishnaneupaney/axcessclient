@@ -14,6 +14,7 @@ import License from './pages/SignUp/License';
 import Ourwhy from './pages/SignUp/Ourwhy';
 import Login from './pages/SignUp/Login';
 import Lender from './pages/SignUp/Lender';
+import Auth from './pages/SignUp/Auth';
 
 function App() {
   return (
@@ -32,11 +33,11 @@ function App() {
         <Route path='/privacy' component={Privacy} />
         <Route path='/licenses' component={License} />
         <Route path='/why' component={Ourwhy} />
-        <Route path='/login' component={Login} />
-
+        <Route path='/auth' component={Auth} />
+        {/* <Route path='/auth' component={Auth} /> */}
       </Switch>
       
-      <Footer /><Sidebar />
+      <Footer />
     </Router>
   
   );
