@@ -1,36 +1,82 @@
-import React, { useEffect, useState } from "react";
-import Faq from "react-faq-component";
+import React, { useState } from "react";
+import classNames from "classnames";
+import './FAQ.css'
+function FAQ({
+  children,
+  defaultOpen = [0, 1],
+  open: openFromProps,
+  onToggle: onToggleFromProps = () => {}
+}) {
+  const isControlled = () => (openFromProps ? true : false);
+  const [open, setIsOpen] = useState(defaultOpen);
+  const getOpen = () => (isControlled() ? openFromProps : open);
+  const isOpen = index => {
+    return getOpen().includes(index) ? true : false;
+  };
+  const onToggle = index => {
+    if (isControlled()) {
+      onToggleFromProps(index);
+    } else {
+      if (getOpen().includes(index)) {
+        setIsOpen(getOpen().filter(item => item !== index));
+      } else {
+        setIsOpen([...getOpen(), index]);
+      }
 
+      onToggleFromProps(index);
+    }
+  };
+  return (
+    <dl>
+      {React.Children.map(children, (child, index) => {
+        return React.cloneElement(child, {
+          isOpen: isOpen(index),
+          onToggle: () => onToggle(index)
+        });
+      })}
+    </dl>
+  );
+}
 
+function Question({ children, isOpen, answerId, onToggle }) {
+  return (
+    <dt>
+      <button
+        className="FAQ__question"
+        aria-expanded={isOpen}
+        aria-controls={answerId}
+        onClick={onToggle}
+      >
+        {children(isOpen, onToggle)}
+      </button>
+    </dt>
+  );
+}
 
+function Answer({ children, id, isOpen }) {
+  const mergedClassname = classNames("FAQ__answer", {
+    "FAQ__answer--hidden": !isOpen
+  });
+  return (
+    <dd>
+      <p className={mergedClassname} id={id}>
+        {children}
+      </p>
+    </dd>
+  );
+}
 
-const data = {
-    title: "FAQ (How it works)",
-    rows: [
-        {
-            title: "Lorem ipsum dolor sit amet,",
-            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-              Fusce sed commodo purus, at tempus turpis.`,
-        },
-        {
-            title: "Nunc maximus, magna at ultricies elementum",
-            content:
-                "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
-        },
-        {
-            title: "Curabitur laoreet, mauris vel blandit fringilla",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
-        },
-        {
-            title: "What is the package version",
-            content: <p>current version is 1.2.1</p>,
-        },
-    ],
-};
+function QAItem({ children, isOpen, onToggle }) {
+  return React.Children.map(children, (child, index) => {
+    return React.cloneElement(child, {
+      isOpen: isOpen,
+      onToggle: onToggle
+    });
+  });
+}
 
-export default data;
+FAQ.QAItem = QAItem;
+FAQ.Question = Question;
+FAQ.Answer = Answer;
+
+export default FAQ;

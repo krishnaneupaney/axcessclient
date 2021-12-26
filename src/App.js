@@ -4,7 +4,7 @@ import Home from './pages/HomePage/Home';
 import Services from './pages/Services/Services';
 import Lenders from './pages/Lenders/Lenders';
 import SignUp from './pages/SignUp/SignUp';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, BrowserRouter } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import { Navbar, Footer, Sidebar } from './components';
 import About from './pages/SignUp/About';
@@ -12,13 +12,13 @@ import Terms from './pages/SignUp/Terms';
 import Privacy from './pages/SignUp/Privacy';
 import License from './pages/SignUp/License';
 import Ourwhy from './pages/SignUp/Ourwhy';
-import Login from './pages/SignUp/Login';
-import Lender from './pages/SignUp/Lender';
+ import Lender from './pages/SignUp/Lender';
 import Auth from './pages/SignUp/Auth';
-
+ 
 function App() {
+  
   return (
-    <Router>
+    <BrowserRouter>
       <GlobalStyle />
       <ScrollToTop />
       <Navbar />
@@ -34,11 +34,11 @@ function App() {
         <Route path='/licenses' component={License} />
         <Route path='/why' component={Ourwhy} />
         <Route path='/auth' component={Auth} />
-        {/* <Route path='/auth' component={Auth} /> */}
-      </Switch>
+       </Switch>
       
       <Footer />
-    </Router>
+      <Sidebar />
+    </BrowserRouter>
   
   );
 }

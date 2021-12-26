@@ -27,7 +27,7 @@ import {
   SocialIcons,
   SocialIconLink
 } from './Footer.elements';
-
+ 
 function Footer() {
   return (
     <FooterContainer>
@@ -106,11 +106,12 @@ function Footer() {
             <SocialIconLink href='https://www.linkedin.com/company/axcessfund/' target='_blank' aria-label='LinkedIn'>
               <FaLinkedin />
             </SocialIconLink>
+            
           </SocialIcons>
         </SocialMediaWrap>
       </SocialMedia>
     </FooterContainer>
-  );
+   );
 }
 
 export default Footer;

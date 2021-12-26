@@ -4,18 +4,18 @@ import { InfoSection } from '../../components';
 import './About.css'
 import { VideoBg } from '../../components/InfoSection/InfoSection.elements';
 import Video from '../../Video/chart.mp4'
-import { Button } from '../../globalStyles';
-
-const About = ({primary, buttonLabel}) => {
+   
+ 
+const About = ({bounce, buttonLabel}) => {
     return (
         <>
 
+        
         <div>
+             <br />
             <br />
             <br />
-            <br />
-
-            <h1>Vision</h1>
+             <h1>Vision</h1>
             <h2>Our vision is to not let any families lose their home just because of nonpayments! 
                 <br />
                 We believe everyone should have Axcess to safe home filled with love and joy!</h2>

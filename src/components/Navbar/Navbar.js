@@ -2,7 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { Button, Buttonn } from '../../globalStyles';
-import { useAuth0 } from "@auth0/auth0-react";
+import { Typography, Avatar } from '@material-ui/core';
+import { Link } from 'react-router-dom';
+import JSONPretty from 'react-json-pretty';
+
 import {
   Nav,
   NavbarContainer,
@@ -16,9 +19,10 @@ import {
   NavBtnLink,
   Img
 } from './Navbar.elements';
+import Profile from '../../pages/SignUp/Profile';
 
 function Navbar() {
-  
+  const { user } = useState();
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -37,13 +41,12 @@ function Navbar() {
     showButton();
   }, []);
 
-  const LoginButton = () => {
-    const { loginWithRedirect } = useAuth0();
-
-  window.addEventListener('resize', showButton);}
-
+ 
+ 
   return (
+    
     <>
+    
       <IconContext.Provider value={{ color: '#fff' }}>
         <Nav>
           <NavbarContainer>
@@ -75,7 +78,12 @@ function Navbar() {
                   About Us
                 </NavLinks>
               </NavItem>
-              <NavItemBtn>
+               <NavItemBtn>
+       
+          
+           
+              
+         
                 {button ? (
                   <NavBtnLink to='/auth'>
                     <Buttonn primary>LOGIN</Buttonn>

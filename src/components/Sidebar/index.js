@@ -4,8 +4,8 @@ import { div } from './SidebarElements';
 
 const Sidebar = () => {
     return (
-           <div style={{backgroundColor: 'dark'}}>
-               <h6 style={{backgroundColor: 'dark'}}>
+           <div style={{backgroundColor: 'white'}}>
+               <h6 style={{backgroundColor: 'white'}}>
         1 When you check your rate, we check your credit report. This initial (soft) inquiry will not affect your credit score. If you accept your rate and proceed with your application, we do another (hard) credit inquiry that will impact your credit score. If you take out a loan, repayment information will be reported to the credit bureaus.
 
 2 Approval numbers compare the 2020 loan approval rate by the Axcess Fund model and a hypothetical traditional credit decision model. The APR calculation compares the two models based on the average APR offered to borrowers up to the same approval rate. The hypothetical traditional model used in AxcessFund’s analyses was developed in connection with the CFPB No Action Letter access-to-credit testing program, is trained on AxcessFund platform data, uses logistic regression and considers traditional application and credit file variables.
@@ -26,7 +26,7 @@ Use of funds must be in accordance with AxcessFund's Acceptable Use Policy.
 <h6>Payment options through AxcessFund are provided by these lending partners: axcessfund.com/lenders. Your rate will be 0–30% APR based on credit, and is subject to an eligibility check. 
     Options depend on your purchase amount, and a down payment may be required. AxcessFund savings accounts are held with {}, Member FDIC. Axcess Fund, Inc., NMLS ID 2281463. 
     Axcess Loan Services, LLC, NMLS ID 2281463. California residents: Axcess Loan Services, LLC is (to be) licensed by the Department of Financial Protection and Innovation. Loans are made or arranged pursuant to California Financing Law license 60DBO-111681.</h6>
-    <Link to='/lenders'>Lenders</Link>                <Link to='/privacy'>Privacy</Link>              <Link to='/terms'>Terms</Link>                        <Link to='/licenses'>Licenses</Link>                                          <h6> @Axcess Fund Inc. All Rights Reserved. </h6>
+    <Link to='/lenders'>Lenders</Link>      <Link to='/privacy'>Privacy</Link>              <Link to='/terms'>Terms</Link>                        <Link to='/licenses'>Licenses</Link>                                          <h6> @Axcess Fund Inc. All Rights Reserved. </h6>
 </div>
     )
 }
