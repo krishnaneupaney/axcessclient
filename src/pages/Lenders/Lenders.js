@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import { InfoSection } from '../../components';
 import { homeObjOne, homeObjTwo } from './Data';
+import { Link } from 'react-router-dom';
+
 import { IconContext } from 'react-icons/lib';
 import { useFormspark } from "@formspark/use-formspark";
 
@@ -62,7 +64,7 @@ const onSubmit = async (e) => {
     <>
       <InfoSection {...homeObjOne} />
     <br />
-      <div class="better">
+      <div link to='/sign-up'class="better">
         <br />
         <br />
         <br />
@@ -75,7 +77,9 @@ const onSubmit = async (e) => {
       <h2>92+ NPS vs less than 30 NPS at top-tier banks</h2>
       <br />
       <br />
-      <Button primary>Request Info</Button>
+      <Link to='/sign-up'>
+      <Button  primary>Request Info</Button>
+      </Link>
     <br />
      <br />
      <br />
@@ -253,7 +257,9 @@ const onSubmit = async (e) => {
           <br />
           <br />
           <br />
+          <Link to='/sign-up'>
           <Buttoner primary>Request Info</Buttoner>
+          </Link>
         </PricingWrapperser>
       </PricingSectionser>
     </IconContext.Provider>

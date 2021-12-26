@@ -59,7 +59,7 @@ export const homeObjThree = {
   headline:
     'Our vision is to keep families togther!',
   description:
-    "Axcess Fund helps families keep family together during difficult time by providing platform to get instant funding to pay the essential bills so they can focus on what matter to them, themselves!",
+    "56% of Americans are shut-down by mainstream banking for funding! Axcess Fund helps families keep family together during difficult time by providing platform to get instant funding to pay the essential bills so they can focus on what matter to them, themselves!",
   buttonLabel: 'How this work?',
   imgStart: 'start',
   img: require('../../images/stat.jpeg'),
