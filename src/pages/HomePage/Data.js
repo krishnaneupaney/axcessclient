@@ -5,12 +5,12 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'Welcome to Axcessible Premium Lending',
-  headline: 'Get funded to pay essential bills. Pay at your own pace!',
+  headline: 'Get funded to pay essential bills. Pay back at your own pace!',
   description:
     'Millions of families are evicted every years. In a typical year, landlords file 3.7 million eviction cases. Our vision is to stop every eviction and to keep families together!',
   buttonLabel: 'Get Started',
   imgStart: '',
-  img: require('../../images/risk.jpeg'),
+  img: require('../../images/2.svg'),
   alt: 'Credit Card',
   start: ''
 };

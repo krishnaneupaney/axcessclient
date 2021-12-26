@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
 import { IconContext } from 'react-icons/lib';
-import Icon1 from '../../images/2.svg'
+import Icon1 from '../../images/bill.png'
 import Icon2 from '../../images/12.svg'
 import Icon3 from '../../images/3.svg'
 
