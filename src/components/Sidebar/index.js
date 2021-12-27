@@ -26,7 +26,7 @@ Use of funds must be in accordance with AxcessFund's Acceptable Use Policy.
 <h6>Payment options through AxcessFund are provided by these lending partners: axcessfund.com/lenders. Your rate will be 0–30% APR based on credit, and is subject to an eligibility check. 
     Options depend on your purchase amount, and a down payment may be required. AxcessFund savings accounts are held with {}, Member FDIC. Axcess Fund, Inc., NMLS ID 2281463. 
     Axcess Loan Services, LLC, NMLS ID 2281463. California residents: Axcess Loan Services, LLC is (to be) licensed by the Department of Financial Protection and Innovation. Loans are made or arranged pursuant to California Financing Law license 60DBO-111681.</h6>
-    <Link to='/lenders'>Lenders</Link>      <Link to='/privacy'>Privacy</Link>              <Link to='/terms'>Terms</Link>                        <Link to='/licenses'>Licenses</Link>                                          <h6> @Axcess Fund Inc. All Rights Reserved. </h6>
+    <Link to='/lender'>Lenders</Link>      <Link to='/privacy'>Privacy</Link>              <Link to='/terms'>Terms</Link>                        <Link to='/licenses'>Licenses</Link>                                          <h6> @Axcess Fund Inc. All Rights Reserved. </h6>
 </div>
     )
 }

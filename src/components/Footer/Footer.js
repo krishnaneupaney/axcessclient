@@ -63,7 +63,7 @@ function Footer() {
           <FooterLinkItems>
             <FooterLinkTitle>Partner</FooterLinkTitle>
             <FooterLink to='/'>Contact Us</FooterLink>
-            <FooterLink to='/lenders'>Lenders</FooterLink>
+            <FooterLink to='/lender'>Lenders</FooterLink>
             <FooterLink to='/licenses'>Licenses</FooterLink>
             <FooterLink to='/terms'>Terms</FooterLink>
           </FooterLinkItems>

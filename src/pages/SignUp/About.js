@@ -19,6 +19,12 @@ const About = ({bounce, buttonLabel}) => {
             <h2>Our vision is to not let any families lose their home just because of nonpayments! 
                 <br />
                 We believe everyone should have Axcess to safe home filled with love and joy!</h2>
+                <br />
+                <h1> Our Value </h1>
+
+                <h2>The most important thing we value in our business is honesty, integrity, hard work, and 
+                    <br />
+                    family - never forgetting where we came from!</h2>
         </div>
         <InfoSection {...homeObjSeven} />
         <h2>Axcess Fund is a leading artificial intelligence (AI) & ML powered lending platform designed to improve the 
