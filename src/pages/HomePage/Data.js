@@ -8,10 +8,10 @@ export const homeObjOne = {
   headline: 'Get funded to pay essential bills. Pay back at your own pace!',
   description:
     'Millions of families are evicted every years. In a typical year, landlords file 3.7 million eviction cases. Our vision is to stop every eviction and to keep families together!',
-  buttonLabel: 'Get Started',
-  imgStart: '',
+  buttonLabel: 'CHECK YOUR RATE',
+   imgStart: '',
   img: require('../../images/2.svg'),
-  alt: 'Credit Card',
+  alt: 'Fund Card',
   start: ''
 };
 

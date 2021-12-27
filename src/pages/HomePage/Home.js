@@ -5,6 +5,7 @@ import {homeObjSeven } from '../Services/Data';
 import Data from '../SignUp/FAQ';
 import Faq from "react-faq-component";
 import '../SignUp/FAQ.css'
+import {  NavIconn } from '../../components/Navbar/Navbar.elements';
   
 function Home() {
   
@@ -48,7 +49,9 @@ function Home() {
 
   return (
     <>
+      
       <InfoSection {...homeObjOne} />
+      <h5><NavIconn />Checing won't affect your credit score<sup>1</sup></h5>
       <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjFive} />

@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 import { SiExpo } from "react-icons/si";
+import { AiOutlineLock } from 'react-icons/ai';
  
 
 export const Nav = styled.nav`
@@ -39,6 +40,10 @@ export const NavIcon = styled(SiExpo)`
   padding-bottom: 2px;
 `;
 
+export const NavIconn = styled(AiOutlineLock)`
+  margin-right: 0.1rem;
+  padding-bottom: 2px;
+`;
 
 
 

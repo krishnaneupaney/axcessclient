@@ -7,6 +7,7 @@ import {
   FaTwitter,
   FaLinkedin
 } from 'react-icons/fa';
+
 import {
   FooterContainer,
   FooterSubscription,
