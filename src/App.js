@@ -14,6 +14,8 @@ import License from './pages/SignUp/License';
 import Ourwhy from './pages/SignUp/Ourwhy';
  import Lender from './pages/SignUp/Lender';
 import Auth from './pages/SignUp/Auth';
+import acceptableusepolicy from './pages/SignUp/acceptableusepolicy';
+import LoanForm from './components/Loan/LoanForm';
  
 function App() {
   
@@ -34,6 +36,8 @@ function App() {
         <Route path='/licenses' component={License} />
         <Route path='/why' component={Ourwhy} />
         <Route path='/auth' component={Auth} />
+        <Route path='/form' component={LoanForm} />
+        <Route path='/acceptableuseofpolicy' component={acceptableusepolicy} />
        </Switch>
       
       <Footer />

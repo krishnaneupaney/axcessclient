@@ -7,7 +7,9 @@ import Faq from "react-faq-component";
 import '../SignUp/FAQ.css'
 import '../HomePage/Home.css'
 import {  NavIconn } from '../../components/Navbar/Navbar.elements';
-  
+import { Buttons } from '../../globalStyles';
+import { Link } from 'react-router-dom';
+
 function Home() {
   
   const [rows, setRowsOption] = useState(null);
@@ -59,10 +61,15 @@ function Home() {
       <Pricing />
       <InfoSection {...homeObjFour} />
       <InfoSection {...homeObjSeven} />
-    <div>
+    <div> 
       
     <Faq data={data} getRowOptions={setRowsOption} />
       <br />
+      <h2>Is Axcess Fund right for you?</h2>
+      <br />
+      <Link to='/form'>
+      <Buttons >CHECK YOUR RATE</Buttons>
+      </Link>
       <br />
       <br />
      </div>

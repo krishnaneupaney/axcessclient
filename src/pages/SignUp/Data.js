@@ -24,7 +24,7 @@ export const homeObjNine = {
     'We have you covered no matter where you are located. Anywhere and Anytime, get Axcess to the capital you need instantly. 100% All-Digital!',
   buttonLabel: 'Learn More',
   imgStart: '',
-  img: require('../../images/svg-1.svg'),
+  img: require('../../images/lock.svg'),
   alt: 'Vault'
 };
 

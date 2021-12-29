@@ -6,7 +6,7 @@ import { AiOutlineLock } from 'react-icons/ai';
  
 
 export const Nav = styled.nav`
-  background: orange;
+  background: white;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -26,7 +26,7 @@ export const NavbarContainer = styled(Container)`
 `;
 
 export const NavLogo = styled(Link)`
-  color: #fff;
+  color: black;
   justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
@@ -109,7 +109,7 @@ export const NavItemBtn = styled.li`
 `;
 
 export const NavLinks = styled(Link)`
-  color: #fff;
+  color: black;
   display: flex;
   align-items: center;
   text-decoration: none;

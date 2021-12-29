@@ -118,7 +118,6 @@ const onSubmit = async (e) => {
                 <PricingCardLengths>Of-course maintain 100% control of your own policy</PricingCardLengths>
           
             
-                {/* <Button primary>But How?</Button> */}
               </PricingCardInfos>
             </PricingCards>
             <PricingCards to='/sign-up'>
@@ -129,8 +128,9 @@ const onSubmit = async (e) => {
                 <PricingCardPlan>Deliver 100% all-digital AI/ML-driven smooth experience</PricingCardPlan>
                 <PricingCardLengths>Let your customer borow and pay anytime - anywhere </PricingCardLengths>
                 <PricingCardLengths>Lend in minutes than in days like bank does</PricingCardLengths>
-                <PricingCardLengths>Absolutely minimize risk and fraud rate</PricingCardLengths>
+                <PricingCardLengths>  minimize risk and fraud rate</PricingCardLengths>
                 <Button primary> Learn More</Button>
+                <br />
               </PricingCardInfos>
             </PricingCards>
           </PricingContainers>
@@ -139,7 +139,6 @@ const onSubmit = async (e) => {
       </PricingSections>
     </IconContext.Provider>
       <InfoSection {...homeObjTwo} />
-      {/* <InfoSection {...homeObjEig} /> */}
 
 
 

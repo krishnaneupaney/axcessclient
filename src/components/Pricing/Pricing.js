@@ -26,22 +26,19 @@ function Pricing() {
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading>Getting fund with AxcessFund is Easy</PricingHeading>
+          <PricingHeading>Getting fund with Axcess Fund is Easy & Fast!</PricingHeading>
           <PricingContainer>
             <PricingCard to='/sign-up'>
+              
               <PricingCardInfo>
            
                   <ServicesIcon src={Icon1} />
                 
                 <PricingCardPlan>Sign In & add your bills</PricingCardPlan>
-                {/* <PricingCardCost></PricingCardCost> */}
+                <PricingCardCost></PricingCardCost>
                 <PricingCardLength>You can add any essential bills you need assistant with</PricingCardLength>
-                {/* <PricingCardFeatures>
-                  <PricingCardFeature></PricingCardFeature>
-                  <PricingCardFeature></PricingCardFeature>
-                  <PricingCardFeature></PricingCardFeature>
-                </PricingCardFeatures> */}
-                <br />
+                
+                
                 <Button primary>More</Button>
               </PricingCardInfo>
             </PricingCard>
@@ -51,16 +48,12 @@ function Pricing() {
                   <ServicesIcon src={Icon2} />
                 
                 <PricingCardPlan>Choose how you want to pay your bills</PricingCardPlan>
-                {/* <PricingCardCost></PricingCardCost> */}
-                <br />
+      
                 <PricingCardLength>Select the payment schedule that works for you, than confirm. We'll never charge more than you see before you hit submit</PricingCardLength>
-                {/* <PricingCardFeatures>
-                  <PricingCardFeature></PricingCardFeature>
-                  <PricingCardFeature></PricingCardFeature>
-                  <PricingCardFeature></PricingCardFeature>
-                </PricingCardFeatures> */}
+                 
             
                 <Button primary>More</Button>
+                <br />
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to='/sign-up'>
@@ -69,14 +62,10 @@ function Pricing() {
                   <ServicesIcon src={Icon3} />
                 
                 <PricingCardPlan>Make easy monthly payments</PricingCardPlan>
-                {/* <PricingCardCost></PricingCardCost> */}
+               
                 <br />
                 <PricingCardLength>We'll send you email and text reminder so you never miss a payment.</PricingCardLength>
-                {/* <PricingCardFeatures>
-                  <PricingCardFeature></PricingCardFeature>
-                  <PricingCardFeature></PricingCardFeature>
-                  <PricingCardFeature></PricingCardFeature>
-                </PricingCardFeatures> */}
+                 
             
                 <Button primary>More</Button>
               </PricingCardInfo>

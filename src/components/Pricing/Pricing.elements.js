@@ -24,8 +24,8 @@ export const PricingWrapper = styled.div`
 `;
 
 export const PricingHeading = styled.h1`
-  color: #fff;
-  font-size: 48px;
+  color: #00FF00;
+  font-size: 40px;
   margin-bottom: 24px;
 `;
 
@@ -44,7 +44,7 @@ export const PricingContainer = styled.div`
 `;
 
 export const PricingCard = styled(Link)`
-  background: #242424;
+  background: #fff;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 280px;
   height: 500px;
@@ -76,7 +76,7 @@ export const PricingCardInfo = styled.div`
   height: 500px;
   padding: 24px;
   align-items: center;
-  color: #fff;
+  color: black;
 `;
 
 export const PricingCardIcon = styled.div`
@@ -85,7 +85,7 @@ export const PricingCardIcon = styled.div`
 
 export const PricingCardPlan = styled.h3`
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
 `;
 

@@ -47,7 +47,7 @@ function Navbar() {
     
     <>
     
-      <IconContext.Provider value={{ color: '#fff' }}>
+      <IconContext.Provider value={{ color: 'green' }}>
         <Nav>
           <NavbarContainer>
             <NavLogo to='/' onClick={closeMobileMenu}>

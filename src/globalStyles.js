@@ -91,4 +91,28 @@ export const Buttoner = styled.button`
     width: 100%;
   }
 `;
+
+
+export const Buttons = styled.button`
+  border-radius: 4px;
+  background: ${({ primary }) => (primary ? 'darkgreen' : '#0467FB')};
+  white-space: nowrap;
+  padding: ${({ big }) => (big ? '22px 24px' : '6px 17px')};
+  color: #fff;
+  font-size: ${({ fontBig }) => (fontBig ? '38px' : '20px')};
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    background-color: ${({ primary }) => (primary ? '#0467FB' : 'green')};
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+  }
+`;
+
 export default GlobalStyle;
