@@ -4,7 +4,7 @@ import { InfoSection } from '../../components';
 import './About.css'
 import { VideoBg } from '../../components/InfoSection/InfoSection.elements';
 import Video from '../../Video/chart.mp4'
-   
+import '../SignUp/About.css'
  
 const About = ({bounce, buttonLabel}) => {
     return (
@@ -25,6 +25,8 @@ const About = ({bounce, buttonLabel}) => {
                 <h2>The most important thing we value in our business is honesty, integrity, hard work, and 
                     <br />
                     family - never forgetting where we came from!</h2>
+                    <b/>
+                    <br />
         </div>
         <InfoSection {...homeObjSeven} />
         <h2>Axcess Fund is a leading artificial intelligence (AI) & ML powered lending platform designed to improve the 
@@ -58,6 +60,8 @@ const About = ({bounce, buttonLabel}) => {
         </h3>
         <InfoSection {...homeObjTwelve} />
         <div className="system">
+            <br />
+            <br />
             <h1 >The system improves constantly,</h1>
             <br />
             <h2>learning and optimizing in response to daily loan-level repayment history 
@@ -65,9 +69,13 @@ const About = ({bounce, buttonLabel}) => {
                 and deliquency data.</h2>
             <br />
             
-            
+        <VideoBg autoPlay loop muted src={Video} type='video/.mp4' />    
+        <br />
+        <br />
+        <br />
+        <br />
         </div>
-        <VideoBg autoPlay loop muted src={Video} type='video/.mp4' />
+        
 
         <InfoSection {...homeObjEleven} />
         <InfoSection {...homeObjFourteen} />

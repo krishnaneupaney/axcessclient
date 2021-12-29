@@ -5,6 +5,7 @@ import {homeObjSeven } from '../Services/Data';
 import Data from '../SignUp/FAQ';
 import Faq from "react-faq-component";
 import '../SignUp/FAQ.css'
+import '../HomePage/Home.css'
 import {  NavIconn } from '../../components/Navbar/Navbar.elements';
   
 function Home() {

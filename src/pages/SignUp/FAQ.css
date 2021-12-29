@@ -3,7 +3,7 @@
     border: none;
     width: 100%;
     text-align: center;
-    font-size: 204px;
+    font-size: 24px;
   }
   
   .FAQ__question:hover {
@@ -14,4 +14,6 @@
   .FAQ__answer--hidden {
     display: none;
   }
- 
+ .title {
+   background-color: bisque;
+ }
