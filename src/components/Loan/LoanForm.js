@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { useFormspark } from "@formspark/use-formspark";
-import { Button } from '../../globalStyles';
+import { Buttons } from '../../globalStyles';
 
 
 const FORMSPARK_FORM_ID = "GpGyK1fs";
@@ -12,10 +12,12 @@ const LoanForm = () => {
         formId: FORMSPARK_FORM_ID,
       });
   
-    const [name, setName] = useState("");
+    const [firstName, setfirstName] = useState("");
+    const [lastName, setlastName] = useState("");
     const [phonenumber, setPhonenumber] = useState("");
     const [message, setMessage] = useState("");
-  
+    const [address, setAddress] = useState("");
+   
     const onSubmit = async (e) => {
       e.preventDefault();
       await submit({ message });
@@ -23,38 +25,49 @@ const LoanForm = () => {
     };
 
     return (
+      <>
         <div>
-            <form onSubmit={onSubmit}>
+      <form onSubmit={onSubmit} action="https://submit-form.com/GpGyK1fs" >
         <br />     
         <br />     
     
       
-      <h3> Share few information and 
+      <h3>  
           <br />
    
-          get your rate  </h3>  
+          get instant decision on your rate  </h3>  
       <br />
-    <h4>Name</h4>
-      <input value={name} onChange={(e) => setName(e.target.value)} />
+    <h4>First Name                              Last Name</h4>
+      <input value={firstName} onChange={(e) => setfirstName(e.target.value)} />
+      <input value={lastName} onChange={(e) => setlastName(e.target.value)} />
       <br />
       <br />
-      <h5>Phone number</h5>
+      <h4>Phone number</h4>
       <input value={phonenumber} onChange={(e) => setPhonenumber(e.target.value)} />
       <br />
       <br />
-      <h5>Email</h5>
+      <h4>Address</h4>
+      <input value={address} onChange={(e) => setAddress(e.target.value)} />
+      <br />
+      <br />
+      <h4>Email</h4>
       <input value={message} onChange={(e) => setMessage(e.target.value)} />
       <br />
       {/* <button type="submit" disabled={submitting}>
         Sign Up
       </button> */}
       <br />
-      <Button fontBig type="submit" disabled={submitting}>Sign Up</Button>
+      <br />
+      <br />
+      <Buttons fontBig type="submit"  >Get My Rate</Buttons>
       
+      <br />
+      <br />
       <br />
       <br />
     </form> 
         </div>
+  </>
     )
 };
 
