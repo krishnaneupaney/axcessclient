@@ -2,10 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { Button, Buttonn } from '../../globalStyles';
-import { Typography, Avatar } from '@material-ui/core';
-import { Link } from 'react-router-dom';
-import JSONPretty from 'react-json-pretty';
-
+ 
 import {
   Nav,
   NavbarContainer,
