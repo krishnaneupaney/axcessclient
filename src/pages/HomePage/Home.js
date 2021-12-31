@@ -65,7 +65,7 @@ function Home() {
       
     <Faq data={data} getRowOptions={setRowsOption} />
       <br />
-      <h2>Is Axcess Fund right for you?</h2>
+      <h2>Get Started with Axcess Fund!</h2>
       <br />
       <Link to='/form'>
       <Buttons >CHECK YOUR RATE</Buttons>

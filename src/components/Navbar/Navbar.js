@@ -16,8 +16,7 @@ import {
   NavBtnLink,
   Img
 } from './Navbar.elements';
-import Profile from '../../pages/SignUp/Profile';
-
+ 
 function Navbar() {
   const { user } = useState();
   const [click, setClick] = useState(false);

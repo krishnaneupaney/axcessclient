@@ -5,7 +5,7 @@ export const homeObjOne = {
   topLine: 'WE CAN HELP YOU GET',
   headline: 'Instant funding',
   description:
-    ' When you get funded through AxcessFund, you get real-time decision and always know exactly you"ll owe and when you"ll be done paying. There are no hidden fees - not even late fees.',
+    ' When you get funded through AxcessFund, you can make real-time decision and always know exactly how much you"ll owe & when you"ll be done re-paying. There are no hidden fees - not even late fees.',
   buttonLabel: 'Learn More',
   imgStart: '',
   img: require('../../images/finance.png'),

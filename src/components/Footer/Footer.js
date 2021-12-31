@@ -28,13 +28,14 @@ import {
   SocialIcons,
   SocialIconLink
 } from './Footer.elements';
+import { Link } from 'react-router-dom';
  
 function Footer() {
   return (
     <FooterContainer>
       <FooterSubscription>
         <FooterSubHeading>
-          Join to be notify when we lunch our platform!  
+          Join to be notified when we lunch our platform!  
         </FooterSubHeading>
         <FooterSubText>You can unsubscribe at any time.</FooterSubText>
    
@@ -69,11 +70,11 @@ function Footer() {
             <FooterLink to='/terms'>Terms</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
-            <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to='/'>Instagram</FooterLink>
-            <FooterLink to='/'>Facebook</FooterLink>
-            <FooterLink to='/'>Linkedin</FooterLink>
-            <FooterLink to='/'>Twitter</FooterLink>
+            <FooterLinkTitle>Support</FooterLinkTitle>
+            <FooterLink to='/'>Resources</FooterLink>
+             <FooterLink >Blog</FooterLink>
+             <FooterLink to='/'>Agreements</FooterLink>
+            <FooterLink to='/'>Education Center</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
