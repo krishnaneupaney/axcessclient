@@ -8,7 +8,14 @@ function SignUp() {
   
   return (
     <>  
+    <br />
+    <br />
+    <br />
       <Application />
+ 
+      <br />
+  
+      <br />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjNine} />

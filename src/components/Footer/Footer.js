@@ -71,7 +71,7 @@ function Footer() {
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Support</FooterLinkTitle>
-            <FooterLink to='/'>Resources</FooterLink>
+            <FooterLink to='/resources'>Resources</FooterLink>
              <FooterLink >Blog</FooterLink>
              <FooterLink to='/'>Agreements</FooterLink>
             <FooterLink to='/'>Education Center</FooterLink>

@@ -51,7 +51,6 @@ const Application = () => {
       </button> */}
       <br />
       <Button fontBig type="submit" disabled={submitting}>Sign Up</Button>
-      
       <br />
       <br />
     </form> 
