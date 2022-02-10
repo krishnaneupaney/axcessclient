@@ -16,8 +16,8 @@ import Ourwhy from './pages/SignUp/Ourwhy';
 import Auth from './pages/SignUp/Auth';
 import acceptableusepolicy from './pages/SignUp/acceptableusepolicy';
 import LoanForm from './components/Loan/LoanForm';
-import Resource from './components/Resources/Resource';
- 
+import Resources from './pages/Services/Resources';
+  
 function App() {
   
   return (
@@ -39,7 +39,7 @@ function App() {
         <Route path='/auth' component={Auth} />
         <Route path='/form' component={LoanForm} />
         <Route path='/acceptableuseofpolicy' component={acceptableusepolicy} />
-        <Route path='/resources' component={Resource} />
+        <Route path='/resources' component={Resources} />
        </Switch>
       
       <Footer />

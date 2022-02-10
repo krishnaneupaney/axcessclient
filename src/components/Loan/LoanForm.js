@@ -1,7 +1,5 @@
 import React, {useState} from 'react'
-import { useFormspark } from "@formspark/use-formspark";
-import { Buttons } from '../../globalStyles';
- import LoanApp from '../../pages/SignUp/LoanApp';
+import LoanApp from '../../pages/SignUp/LoanApp';
 
 
  

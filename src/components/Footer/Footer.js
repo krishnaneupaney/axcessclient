@@ -28,8 +28,7 @@ import {
   SocialIcons,
   SocialIconLink
 } from './Footer.elements';
-import { Link } from 'react-router-dom';
- 
+  
 function Footer() {
   return (
     <FooterContainer>
@@ -84,7 +83,7 @@ function Footer() {
             <SocialIcon />
             xcess Fund
           </SocialLogo>
-          <WebsiteRights>Axcess Fund © 2021</WebsiteRights>
+          <WebsiteRights>Axcess Fund © 2022</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href='https://www.facebook.com/axcess.fund' target='_blank' aria-label='Facebook'>
               <FaFacebook />

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Widget, PopupButton, SliderButton, Popover, Sidetab } from '@typeform/embed-react'
+import { Widget } from '@typeform/embed-react'
 
 const handleOnReady = () => {
   // eslint-disable-next-line no-console
