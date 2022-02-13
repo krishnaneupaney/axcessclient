@@ -61,7 +61,7 @@ function Navbar() {
               </NavItem>
               <NavItem>
                 <NavLinks to='/services' onClick={closeMobileMenu}>
-                  Services
+                  Renters
                 </NavLinks>
               </NavItem>
               <NavItem>
