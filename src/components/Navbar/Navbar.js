@@ -65,6 +65,11 @@ function Navbar() {
                 </NavLinks>
               </NavItem>
               <NavItem>
+                <NavLinks to='/services' onClick={closeMobileMenu}>
+                  Landlords
+                </NavLinks>
+              </NavItem>
+              <NavItem>
                 <NavLinks to='/lenders' onClick={closeMobileMenu}>
                   For Lenders
                 </NavLinks>
@@ -82,8 +87,7 @@ function Navbar() {
          
                 {button ? (
                   <NavBtnLink to='/auth'>
-                    <Buttonn primary>LOGIN</Buttonn>
-                  </NavBtnLink>
+                   </NavBtnLink>
                   
                 ) : (
                   <NavBtnLink to='/sign-up'>
@@ -97,7 +101,7 @@ function Navbar() {
               <NavItemBtn>
                 {button ? (
                   <NavBtnLink to='/sign-up'>
-                    <Button primary>Sign Up</Button>
+                    <Button primary>Login/Sign Up</Button>
                   </NavBtnLink>
                   
                 ) : (

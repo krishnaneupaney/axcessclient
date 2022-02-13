@@ -4,7 +4,8 @@ import { useFormspark } from "@formspark/use-formspark";
 import signin from '../SignUp/signin.css'
 import { Button } from "../../globalStyles";
 import { FormInput } from "../../components/Footer/Footer.elements";
-
+ import Auth from "./Auth";
+ 
 const FORMSPARK_FORM_ID = "iNlNSMf3";
 
 const Application = () => {
@@ -23,8 +24,15 @@ const Application = () => {
   };
   
   return (
-            <>
+         <>   
+      <div > 
+      <Auth/>
+       </div>
+       <br />
+       <br />
+       <br />
      <div> 
+       
          <form onSubmit={onSubmit}>
         <br />     
         <br />     
