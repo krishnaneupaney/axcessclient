@@ -47,23 +47,23 @@ function Footer() {
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>About Us</FooterLinkTitle>
-            <FooterLink to='/sign-up'>How it works</FooterLink>
+            <FooterLink to='/renters'>How it works</FooterLink>
             <FooterLink to='/'>Careers</FooterLink>
             <FooterLink to='/'>Investors</FooterLink>
             <FooterLink to='/why'>Our Why</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Consumer</FooterLinkTitle>
-            <FooterLink to='/'>Contact</FooterLink>
+            <FooterLink to='/sign-up'>Contact</FooterLink>
             <FooterLink to='/sign-up'>Waitlist</FooterLink>
-            <FooterLink to='/'>Help</FooterLink>
+            <FooterLink to='/form'>Help</FooterLink>
             <FooterLink to='/privacy'>Privacy</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>Partner</FooterLinkTitle>
-            <FooterLink to='/'>Contact Us</FooterLink>
+            <FooterLink to='/sign-up'>Contact Us</FooterLink>
             <FooterLink to='/lender'>Lenders</FooterLink>
             <FooterLink to='/licenses'>Licenses</FooterLink>
             <FooterLink to='/terms'>Terms</FooterLink>
@@ -72,8 +72,8 @@ function Footer() {
             <FooterLinkTitle>Support</FooterLinkTitle>
             <FooterLink to='/resources'>Resources</FooterLink>
              <FooterLink >Blog</FooterLink>
-             <FooterLink to='/'>Agreements</FooterLink>
-            <FooterLink to='/'>Education Center</FooterLink>
+             <FooterLink to='/terms'>Agreements</FooterLink>
+            <FooterLink to='/sign-up'>Complaint</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>

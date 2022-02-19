@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import { Button, Buttonn } from '../../globalStyles';
+import { Button, Buttoni, Buttonn } from '../../globalStyles';
  
 import {
   Nav,
@@ -55,11 +55,6 @@ function Navbar() {
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to='/' onClick={closeMobileMenu}>
-                  Home
-                </NavLinks>
-              </NavItem>
-              <NavItem>
                 <NavLinks to='/renters' onClick={closeMobileMenu}>
                   Renters
                 </NavLinks>
@@ -79,39 +74,18 @@ function Navbar() {
                   About Us
                 </NavLinks>
               </NavItem>
-               <NavItemBtn>
-       
-          
-           
-              
-         
-                {button ? (
-                  <NavBtnLink to='/auth'>
-                   </NavBtnLink>
-                  
-                ) : (
-                  <NavBtnLink to='/sign-up'>
-                    <Buttonn onClick={closeMobileMenu} fontBig primary>
-                      Sign Up
-                    </Buttonn>
+              <NavItem>
+              <NavBtnLink to='/form'>
+                    <Buttoni onClick={closeMobileMenu} fontBig primary>
+                     Apply Now
+                    </Buttoni>
                   </NavBtnLink>
-                  
-                )}
-              </NavItemBtn>
+              </NavItem>
+              
               <NavItemBtn>
-                {button ? (
-                  <NavBtnLink to='/sign-up'>
+                   <NavBtnLink to='/sign-up'>
                     <Button primary>Login/Sign Up</Button>
                   </NavBtnLink>
-                  
-                ) : (
-                  <NavBtnLink to='/login'>
-                    <Button onClick={closeMobileMenu} fontBig primary>
-                      LOGIN
-                    </Button>
-                  </NavBtnLink>
-                  
-                )}
               </NavItemBtn>
             </NavMenu>
           </NavbarContainer>

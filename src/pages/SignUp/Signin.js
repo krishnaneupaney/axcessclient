@@ -26,7 +26,7 @@ const Application = () => {
   return (
          <>   
       <div > 
-      <Auth/>
+      
        </div>
        <br />
        <br />
@@ -62,6 +62,9 @@ const Application = () => {
       <br />
       <br />
     </form> 
+    <div>
+    <Auth/>
+    </div>
     </div>
     
    </>

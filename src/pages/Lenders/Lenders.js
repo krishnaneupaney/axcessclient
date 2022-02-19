@@ -17,6 +17,8 @@ import Icon6 from '../../images/rent.png'
 import Icon7 from '../../images/utilities.png'
 import Icon8 from '../../images/student.png'
 import Icon9 from '../../images/api.png'
+import Fade from 'react-reveal/Fade';
+
 import {
   PricingCards,
   PricingCardInfos,
@@ -29,15 +31,13 @@ import {
   ServicesIcons,
   PricingCardLengths,
   PricingCardPlans,
-  PricingCardFeaturess,
-  PricingCardFeaturesss,
+ 
   PricingSectionser,
   PricingWrapperser,
   PricingCardser,
   PricingCardInfoser,
   ServicesIconser,
-  PricingCardPlanser,
-  PricingCardLengthser,
+ 
   PricingHeadingser,
   PricingContainerser
 } from '../../components/Pricing/Pricing.elements';
@@ -62,7 +62,10 @@ const onSubmit = async (e) => {
 };
   return (
     <>
-      <InfoSection {...homeObjOne} />
+    <Fade bottom>
+      <InfoSection {...homeObjOne} /> 
+    </Fade>
+     
     <br />
       <div link to='/sign-up'class="better">
         <br />

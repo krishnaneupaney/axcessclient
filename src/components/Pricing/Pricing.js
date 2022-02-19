@@ -12,12 +12,10 @@ import {
   PricingContainer,
   PricingCard,
   PricingCardInfo,
-  PricingCardIcon,
   PricingCardPlan,
   PricingCardCost,
   PricingCardLength,
-  PricingCardFeatures,
-  PricingCardFeature, 
+
   ServicesIcon
 } from './Pricing.elements';
 
@@ -26,9 +24,9 @@ function Pricing() {
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading>Getting fund with Axcess Fund is Easy & Fast!</PricingHeading>
+          <PricingHeading>Getting funded with Axcess Lending Platform is Easy & Fast!</PricingHeading>
           <PricingContainer>
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/form'>
               
               <PricingCardInfo>
            
@@ -42,7 +40,7 @@ function Pricing() {
                 <Button primary>More</Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/form'>
               <PricingCardInfo>
            
                   <ServicesIcon src={Icon2} />
@@ -56,7 +54,7 @@ function Pricing() {
                 <br />
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/form'>
               <PricingCardInfo>
            
                   <ServicesIcon src={Icon3} />

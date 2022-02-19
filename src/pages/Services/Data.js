@@ -2,10 +2,10 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'WE CAN HELP YOU GET',
+  topLine: 'With Axcess Lending Platform, you can get',
   headline: 'Instant funding',
   description:
-    ' When you get funded through AxcessFund, you can make real-time decision and always know exactly how much you"ll owe & when you"ll be done re-paying. There are no hidden fees - not even late fees.',
+    ' to pay your rents and other essential bills. You will always know exactly your fixed-monthly payments & when you"ll be done re-paying. There are no hidden fees - not even late fees.',
   buttonLabel: 'Learn More',
   imgStart: '',
   img: require('../../images/finance.png'),

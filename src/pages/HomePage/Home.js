@@ -8,6 +8,7 @@ import '../HomePage/Home.css'
 import {  NavIconn } from '../../components/Navbar/Navbar.elements';
 import { Buttons } from '../../globalStyles';
 import { Link } from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
 
 function Home() {
   
@@ -51,8 +52,10 @@ function Home() {
 
   return (
     <>
+    <Fade right>
+    <InfoSection {...homeObjOne} />
+    </Fade>  
       
-      <InfoSection {...homeObjOne} />
       <h5><NavIconn />Checking won't affect your credit score<sup>1</sup></h5>
       <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjTwo} />

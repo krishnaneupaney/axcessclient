@@ -15,8 +15,15 @@ const About = ({bounce, buttonLabel}) => {
              <br />
             <br />
             <br />
+            <h1>At Axcess Fund,
+                <br />
+                 we are breaking the barriers of traditional lending to underprivileged communities!​
+
+​</h1>
+            <br />
              <h1>Vision</h1>
-            <h2>Our vision is to not let any families lose their home just because of nonpayments! 
+            <h2>To be as pervasive, secure, and convenient as a lending platform for those in need, while delivering a transparent and honest financial products that improve the lives of people we serve!.​ 
+                <br />
                 <br />
                 We believe everyone should have Axcess to safe home filled with love and joy!</h2>
                 <br />
@@ -30,7 +37,7 @@ const About = ({bounce, buttonLabel}) => {
         </div>
         <InfoSection {...homeObjSeven} />
         <h2>Axcess Fund is a leading artificial intelligence (AI) & ML powered lending platform designed to improve the 
-           <br /> Axcess to affordable fund borrowing while reducing the risk and costs of lender for out lending partner. 
+           <br /> Axcess to affordable fund borrowing while reducing the risk and costs of lender for our lending partner. 
            <br /> By leveraging AxcessFund's AI platform, Axcess-powered lenders can offer high approval rates and with lowest APR 
            <br /> while experience lower loss rates by simultineously delivering the exceptional all-digital lending experience to their customers in need! </h2>
 

@@ -11,7 +11,6 @@ import { Container, Button } from '../../globalStyles';
   Subtitle,
   ImgWrapper,
   Img,
-  VideoBg
 } from './InfoSection.elements';
 
 function InfoSection({

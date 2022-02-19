@@ -45,7 +45,27 @@ export const Button = styled.button`
     width: 100%;
   }
 `;
+export const Buttoni = styled.button`
+  border-radius: 55px;
+  background: ${({ primary }) => (primary ? 'red' : 'red')};
+  white-space: nowrap;
+  padding: ${({ big }) => (big ? '12px 64px' : '10px 20px')};
+  color: #fff;
+  font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
+  outline: none;
+  border: none;
+  cursor: pointer;
 
+  &:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    background-color: ${({ primary }) => (primary ? 'orange' : 'orange')};
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+  }
+`;
 
 export const Buttonn = styled.button`
   border-radius: 55px;
