@@ -17,6 +17,7 @@ import Auth from './pages/SignUp/Auth';
 import acceptableusepolicy from './pages/SignUp/acceptableusepolicy';
 import LoanForm from './components/Loan/LoanForm';
 import Resources from './pages/Services/Resources';
+import Landlord from './pages/Landlord/Landlord';
   
 function App() {
   
@@ -27,8 +28,9 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/services' component={Services} />
+        <Route path='/renters' component={Services} />
         <Route path='/lenders' component={Lenders} />
+        <Route path='/landlords' component={Landlord} />
         <Route path='/sign-up' component={SignUp} />
         <Route path='/about' component={About} />
         <Route path='/lender' component={Lender} />

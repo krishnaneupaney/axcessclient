@@ -15,6 +15,22 @@ export const homeObjOne = {
   start: ''
 };
 
+export const homeObjLand = {
+  primary: true,
+  lightBg: false,
+  lightTopLine: true,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: ' ',
+  headline: ' Boost Cash Flow - Keep & Retain Happy Residents',
+  description:
+    'With Axcess Lending platform, we provide the easiest way to capture and report the on-time rental data to credit bureaus. This helps residents build credit scores while you maximize your cash flow & support ESG effort!',
+  buttonLabel: 'Schedule demo',
+   imgStart: '',
+  img: require('../../images/cashflow.png'),
+  alt: 'Fund Card',
+  start: ''
+};
 export const homeObjTwo = {
   primary: true,
   lightBg: false,

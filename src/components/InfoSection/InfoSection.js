@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Button } from '../../globalStyles';
-import Video from '../../Video/chart.mp4';
-import {
+ import {
   InfoSec,
   InfoRow,
   InfoColumn,

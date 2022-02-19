@@ -13,9 +13,9 @@ const LoanForm = () => {
       <br />
       <br />
       <h2>Thank you for your interest at Axcess Fund. We're at early stage of 
-        building this platform and on process of completing soon. If you cannot wait and need 
+        building this platform. If you cannot wait and need 
         immediate assistance, please fill the form below and 
-        we'll get back to you as soon as possible</h2>
+        we'll get back to you as soon as possible!</h2>
         <br />
         <br />
       <LoanApp/>
