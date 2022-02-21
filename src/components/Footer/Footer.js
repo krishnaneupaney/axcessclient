@@ -36,11 +36,10 @@ function Footer() {
         <FooterSubHeading>
           Join to be notified when we lunch our platform!  
         </FooterSubHeading>
-        <FooterSubText>You can unsubscribe at any time.</FooterSubText>
-   
+    
         <Form action="https://submit-form.com/iNlNSMf3">
           <FormInput name='email' type='email' placeholder='Your Email' />
-          <Button fontBig>Subscribe</Button>
+          <Button fontBig>Get notified</Button>
         </Form>
       </FooterSubscription>
       <FooterLinksContainer>
@@ -101,7 +100,7 @@ function Footer() {
             >
               <FaYoutube />
             </SocialIconLink>
-            <SocialIconLink href='twitter.com' target='_blank' aria-label='Twitter'>
+            <SocialIconLink href='https://twitter.com' target='_blank' aria-label='Twitter'>
               <FaTwitter />
             </SocialIconLink>
             <SocialIconLink href='https://www.linkedin.com/company/axcessfund/' target='_blank' aria-label='LinkedIn'>

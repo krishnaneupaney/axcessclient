@@ -4,10 +4,10 @@ export const homeObjOne = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Welcome to Axcessible Premium Lending',
+  topLine: 'Welcome to Axcessible Lending Platform',
   headline: 'Get funded to pay essential bills. Pay back at your own pace!',
   description:
-    'In a typical year, landlords file 3.7 million eviction cases. Today, the majority of poor renting families in America spend over half of their income on housing costs, and eviction is transforming their lives. Our vision is to keep families together through our AI-enabled all-digital lending platform!',
+    'In a typical year, landlords file 3.7 million eviction cases. Today, the majority of poor renting families in America spend over half of their income on housing costs, and eviction is transforming their lives. Our vision is to keep families together by providing instant fund to pay bills in emergency through our AI-enabled Lending Platform!',
   buttonLabel: 'CHECK YOUR RATE',
    imgStart: '',
   img: require('../../images/2.svg'),
@@ -22,7 +22,7 @@ export const homeObjLand = {
   lightText: true,
   lightTextDesc: true,
   topLine: ' ',
-  headline: ' Boost Cash Flow - Keep & Retain Happy Residents',
+  headline: ' Boost Cash Flow - Retain & Keep Happy Residents',
   description:
     'With Axcess Lending platform, we provide the easiest way to capture and report the on-time rental data to credit bureaus. This helps residents build credit scores while you maximize your cash flow & support ESG effort!',
   buttonLabel: 'Schedule demo',
@@ -73,7 +73,7 @@ export const homeObjThree = {
   lightTextDesc: false,
   topLine: 'Life is unpredictable',
   headline:
-    'Our vision is to keep families togther!',
+    'Our Vision is to keep families togther!',
   description:
     "56% of Americans are shut-down by mainstream banking for funding! Axcess Fund helps families keep family together during difficult time by providing platform to get instant funding to pay the essential bills so they can focus on what matter to them, themselves!",
   buttonLabel: 'How this work?',

@@ -23,6 +23,7 @@ import {
   import Icon3 from '../../images/datai.png'  
   import {homeObjLand} from '../../pages/HomePage/Data';
   import { InfoSection } from '../../components';
+import { Link } from 'react-router-dom';
 const Landlord = () => {
 
 
@@ -84,21 +85,28 @@ const Landlord = () => {
                 <br />
                 <PricingCardLength>You can Integrate within your system with few/low code. No change to your payments process requires.</PricingCardLength>
                  
-            
+           
                  <br />
                 <br />
+                
               </PricingCardInfo>
             </PricingCard>
-            
+              
           </PricingContainer>
         </PricingWrapper>
         
       </PricingSection>
-      
+         
+
     </IconContext.Provider>
-    
+        </div> 
+
+        <div> Want to see live in action?
+      <Link to="/sign-up">
+       <Button>Schedule Demo</Button>    
+       </Link>
         </div>
-  
+ 
   </div>;
   
 };
