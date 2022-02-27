@@ -7,7 +7,7 @@ import {
   FaTwitter,
   FaLinkedin
 } from 'react-icons/fa';
-
+import logo from '../../images/logo.png'
 import {
   FooterContainer,
   FooterSubscription,
@@ -77,12 +77,17 @@ function Footer() {
         </FooterLinksWrapper>
       </FooterLinksContainer>
       <SocialMedia>
+        
         <SocialMediaWrap>
+                      <img src={logo} style={{width:"11%", height: "11%"}}/>
+
           <SocialLogo to='/'>
             <SocialIcon />
             xcess Fund
           </SocialLogo>
+          
           <WebsiteRights>Axcess Fund © 2022</WebsiteRights>
+ 
           <SocialIcons>
             <SocialIconLink href='https://www.facebook.com/axcess.fund' target='_blank' aria-label='Facebook'>
               <FaFacebook />
@@ -106,7 +111,6 @@ function Footer() {
             <SocialIconLink href='https://www.linkedin.com/company/axcessfund/' target='_blank' aria-label='LinkedIn'>
               <FaLinkedin />
             </SocialIconLink>
-            
           </SocialIcons>
         </SocialMediaWrap>
       </SocialMedia>
