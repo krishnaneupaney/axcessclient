@@ -101,9 +101,13 @@ const Landlord = () => {
     </IconContext.Provider>
         </div> 
 
-        <div> Want to see live in action?
+        <div style={{ background: "white", textAlign: "center"}}> 
+        <h2> Want to see live in action? </h2>
+        <br />
       <Link to="/sign-up">
-       <Button>Schedule Demo</Button>    
+       <Button> <h2>Schedule Demo</h2></Button>    
+       <br />
+       <br />
        </Link>
         </div>
  

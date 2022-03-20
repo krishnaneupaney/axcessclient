@@ -69,7 +69,32 @@ export const PricingCard = styled(Link)`
     }
   }
 `;
+export const PricingCardd = styled(Link)`
+  background: #fff;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
+  width: 280px;
+  height: 250px;
+  text-decoration: none;
+  border-radius: 4px;
 
+  &:nth-child(2) {
+    margin: 24px;
+  }
+
+  &:hover {
+    transform: scale(1.26);
+    transition: all 0.2s ease-out;
+    color: #1c2237;
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 90%;
+
+    &:hover {
+      transform: none;
+    }
+  }
+`;
 export const PricingCardInfo = styled.div`
   display: flex;
   flex-direction: column;

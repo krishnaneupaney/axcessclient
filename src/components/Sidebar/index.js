@@ -4,7 +4,7 @@ import { div } from './SidebarElements';
 
 const Sidebar = () => {
     return (
-           <div style={{backgroundColor: 'white'}}>
+           <div style={{backgroundColor: 'white', textAlign: "center"}}>
                <h6 style={{backgroundColor: 'white'}}>
         1 When you check your rate, we check your credit report. This initial (soft) inquiry will not affect your credit score. If you accept your rate and proceed with your application, we do another (hard) credit inquiry that will impact your credit score. If you take out a loan, repayment information will be reported to the credit bureaus.
 
@@ -23,7 +23,7 @@ Images are not actual customers, but their stories are real.
 Use of funds must be in accordance with AxcessFund's Acceptable Use Policy.
 </h6>
 
-<h6>Payment options through AxcessFund are provided by these lending partners: axcessfund.com/lenders. Your rate will be 0–30% APR based on credit, and is subject to an eligibility check. 
+<h6 >Payment options through AxcessFund are provided by these lending partners: axcessfund.com/lenders. Your rate will be 0–30% APR based on credit, and is subject to an eligibility check. 
     Options depend on your purchase amount, and a down payment may be required. AxcessFund savings accounts are held with {}, Member FDIC. Axcess Fund, Inc., NMLS ID 2281463. 
     Axcess Loan Services, LLC, NMLS ID 2281463. California residents: Axcess Loan Services, LLC is (to be) licensed by the Department of Financial Protection and Innovation. Loans are made or arranged pursuant to California Financing Law license 60DBO-111681.</h6>
     <h5> Use of these fund must be compliance with our <Link to='/acceptableuseofpolicy' >Acceptable Use of Policy</Link> </h5>

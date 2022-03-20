@@ -18,9 +18,10 @@ import acceptableusepolicy from './pages/SignUp/acceptableusepolicy';
 import LoanForm from './components/Loan/LoanForm';
 import Resources from './pages/Services/Resources';
 import Landlord from './pages/Landlord/Landlord';
-  
+import { Bills } from './pages/Bills/Bills';
+
 function App() {
-  
+
   return (
     <BrowserRouter>
       <GlobalStyle />
@@ -30,6 +31,7 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/renters' component={Services} />
         <Route path='/lenders' component={Lenders} />
+        <Route path='/bills' component={Bills} />
         <Route path='/landlords' component={Landlord} />
         <Route path='/sign-up' component={SignUp} />
         <Route path='/about' component={About} />

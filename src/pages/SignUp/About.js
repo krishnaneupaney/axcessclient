@@ -11,7 +11,7 @@ const About = ({bounce, buttonLabel}) => {
         <>
 
         
-        <div>
+        <div style={{ textAlign: "center"}}>
              <br />
             <br />
             <br />
@@ -21,9 +21,11 @@ const About = ({bounce, buttonLabel}) => {
 
 ​</h1>
             <br />
-             <h1>Vision</h1>
+             <h1>Mission & Vision</h1>
             <h2>To be as pervasive, secure, and convenient as a lending platform for those in need, while delivering a transparent and honest financial products that improve the lives of people we serve!.​ 
                 <br />
+                <br />
+                <h2>Our ultimate vision is to be: The Only All-In-One Financial Solution Platform for Renters & Landlords</h2>
                 <br />
                 We believe everyone should have Axcess to safe home filled with love and joy!</h2>
                 <br />
@@ -36,6 +38,8 @@ const About = ({bounce, buttonLabel}) => {
                     <br />
         </div>
         <InfoSection {...homeObjSeven} />
+        <div style={{ textAlign: "center"}}>
+            <br />
         <h2>Axcess Fund is a leading artificial intelligence (AI) & ML powered lending platform designed to improve the 
            <br /> Axcess to affordable fund borrowing while reducing the risk and costs of lender for our lending partner. 
            <br /> By leveraging AxcessFund's AI platform, Axcess-powered lenders can offer high approval rates and with lowest APR 
@@ -64,9 +68,11 @@ const About = ({bounce, buttonLabel}) => {
         <h3>The implication is eye-opening. With a smarter credit modeling focusing on real-data, 
             <br />
             lenders could approve almost twicew as many borrowers, with fewer defaults
-        </h3>
+          
+        </h3>  <br />
+        </div>
         <InfoSection {...homeObjTwelve} />
-        <div className="system">
+        <div className="system" style={{ textAlign: "center"}}>
             <br />
             <br />
             <h1 >The system improves constantly,</h1>

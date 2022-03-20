@@ -2,7 +2,7 @@ import React from 'react'
 
 const Ourwhy = () => {
     return (
-        <div >
+        <div style={{ textAlign: "center"}} >
             <br />
             <br />
             <h1>Our why</h1>

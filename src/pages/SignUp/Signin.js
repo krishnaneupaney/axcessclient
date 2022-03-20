@@ -1,11 +1,7 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
-import { useFormspark } from "@formspark/use-formspark";
-import signin from '../SignUp/signin.css'
-import { Button } from "../../globalStyles";
-import { FormInput } from "../../components/Footer/Footer.elements";
- import Auth from "./Auth";
- 
+ import { useFormspark } from "@formspark/use-formspark";
+ import { Button } from "../../globalStyles";
+  
 const FORMSPARK_FORM_ID = "iNlNSMf3";
 
 const Application = () => {
@@ -31,27 +27,27 @@ const Application = () => {
        <br />
        <br />
        <br />
-     <div> 
+     <div style={{ textAlign: "center"}}> 
        
          <form onSubmit={onSubmit}>
         <br />     
         <br />     
     
       
-      <h3> Sign Up & waitlist to be first one to Axcess the
+      <h3 style={{ fontSize: "36px"}}> Sign Up & waitlist to be first one to Axcess the
           <br />
    
-          Revolutionizing Lending Platform  </h3>  
+          Revolutionizing Lending & Bills Management Platform  </h3>  
       <br />
-    <h4>Name</h4>
+    <h4 style={{ fontSize: "26px"}}>Name</h4>
       <input value={name} onChange={(e) => setName(e.target.value)} />
       <br />
       <br />
-      <h5>Phone number</h5>
+      <h5 style={{ fontSize: "26px"}}>Phone number</h5>
       <input value={phonenumber} onChange={(e) => setPhonenumber(e.target.value)} />
       <br />
       <br />
-      <h5>Email</h5>
+      <h6 style={{ fontSize: "26px"}} >Email</h6>
       <input value={message} onChange={(e) => setMessage(e.target.value)} />
       <br />
       {/* <button type="submit" disabled={submitting}>
@@ -63,7 +59,6 @@ const Application = () => {
       <br />
     </form> 
     <div>
-    <Auth/>
     </div>
     </div>
     

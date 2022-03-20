@@ -10,10 +10,10 @@ import { Buttons } from '../../globalStyles';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 
-function Home() {
+function Home() { 
   
   const [rows, setRowsOption] = useState(null);
-  const data = {
+  const data = { 
     title: "Frequently Asked Question! (How it works)",
     rows: [
       {
@@ -63,7 +63,7 @@ function Home() {
       <Pricing />
       <InfoSection {...homeObjFour} />
       <InfoSection {...homeObjSeven} />
-    <div> 
+    <div style={{ textAlign: "center"}}> 
       
     <Faq data={data} getRowOptions={setRowsOption} />
       <br />

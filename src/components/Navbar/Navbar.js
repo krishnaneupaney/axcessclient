@@ -64,9 +64,14 @@ function Navbar() {
                   Landlords
                 </NavLinks>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLinks to='/lenders' onClick={closeMobileMenu}>
                   For Lenders
+                </NavLinks>
+              </NavItem> */}
+              <NavItem>
+                <NavLinks to='/bills' onClick={closeMobileMenu}>
+                  Manage Bills
                 </NavLinks>
               </NavItem>
               <NavItem>

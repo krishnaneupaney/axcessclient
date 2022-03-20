@@ -1,3 +1,4 @@
+ 
 export const homeObjOne = {
   primary: true,
   lightBg: false,
@@ -95,7 +96,7 @@ export const homeObjFour = {
   topLine: 'Security is Key!',
   headline: 'All your data is stored on our secure server',
   description:
-    'You will never have to worry about your information getting leaked or hack. Our team of security experts will ensure your records are kept safe.',
+    'Our team of security experts will ensure your records are kept safe.',
   buttonLabel: 'Sign Up Now',
   imgStart: 'start',
   img: require('../../images/svg-3.svg'),
@@ -103,3 +104,5 @@ export const homeObjFour = {
   start: 'true'
 };
 
+
+ 
