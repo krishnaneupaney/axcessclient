@@ -43,9 +43,9 @@ function Home() {
           This action will be recorded as an inquiry on your report and it may impact your credit score. But don't worry, after 2-3 months of good payment history, score will go up! </p>
       },
       {
-        title: "Can I pay a fee if I pay off my loan early?",
-        content: <p>   here is no prepayment penalty for paying off a loan on AxcessFund early. You may pay off part of all of the loan at any time with no fee. 
-          By prepaying, you will pay less overall interest because the loan is outstanding for a shorter time.</p>
+        title: "Can I pay off my loan early or ask for extension?",
+        content: <p>   There is no prepayment penalty for paying off a loan on AxcessFund early. You may pay off part of all of the loan at any time with no fee. 
+          By prepaying, you will pay less overall interest because the loan is outstanding for a shorter time. You can certainly ask us if you need more time to pay your bills then then originally selected term!</p>
       }
     ]
   };

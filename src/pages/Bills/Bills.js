@@ -1,5 +1,6 @@
 import React from 'react'
 import Video from '../../Video/axx.mp4'
+import images from "../../images/whybetter.png"
 import {
   PricingSection,
   PricingWrapper,
@@ -14,9 +15,11 @@ import {
   ServicesIcon,
   PricingCardd
 } from '../../components/Pricing/Pricing.elements';
+import { InfoSection } from '../../components';
 
 import { Button } from '../../globalStyles';
 import { IconContext } from 'react-icons/lib';
+import { homeObjCredit, homeObjTen } from '../Services/Data';
   
 export const Bills = () => {
   return (
@@ -92,8 +95,34 @@ export const Bills = () => {
       </PricingSection>
     </IconContext.Provider>
           </div>
-           
       </div>
+      <InfoSection {...homeObjCredit} />
+      <div>
+        <br />
+        <h1 style={{color:'white'}}>An easier way to build Credit Scores</h1>
+        <h3 style={{color:'white'}}>Axcess is the easiest way to build and establish your credit score without going into debt. 
+          <br />
+          Let your rent do the work for you!</h3>
+          <br />
+          <br />
+        <img src={images} style={{
+          position: "flexible",
+          width: "90%",
+          height: "75%",
+          left: 0,
+          top: 0
+        }}
+        type='images/jpeg' />
+      </div>
+      <InfoSection {...homeObjTen} />
+      <div> 
+
+      </div>
+      
+
+    <div>      
+
+    </div>
       </div>
       
   )

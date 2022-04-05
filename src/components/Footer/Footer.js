@@ -92,18 +92,8 @@ function Footer() {
             <SocialIconLink href='https://www.facebook.com/axcess.fund' target='_blank' aria-label='Facebook'>
               <FaFacebook />
             </SocialIconLink>
-            <SocialIconLink href='https://www.instagram.com/krishnaneupaney/' target='_blank' aria-label='Instagram'>
+            <SocialIconLink href='https://www.instagram.com/axcessfund/' target='_blank' aria-label='Instagram'>
               <FaInstagram />
-            </SocialIconLink>
-            <SocialIconLink
-              href={
-                '//www.youtube.com'
-              }
-              rel='noopener noreferrer'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <FaYoutube />
             </SocialIconLink>
             <SocialIconLink href='https://twitter.com' target='_blank' aria-label='Twitter'>
               <FaTwitter />

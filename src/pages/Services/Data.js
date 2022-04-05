@@ -11,6 +11,19 @@ export const homeObjOne = {
   img: require('../../images/finance.png'),
   alt: 'Credit Card'
 };
+export const homeObjCredit = {
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'You deserve credit for the rent you’re already paying',
+  headline: 'Build credit while renting',
+  description:
+    '  Build your credit score by reporting your on-time rent payments to the major credit bureaus. Rent is the most consistent monthly payment you make, and we believe it should work for you to build your credit score.',
+  buttonLabel: 'Start building my credit',
+   imgStart: '',
+  img: require('../../images/credit.png'),
+  alt: 'Credit Card'
+};
 
 export const homeObjTwo = {
   lightBg: false,
