@@ -24,6 +24,7 @@ function App() {
 
   return (
     <BrowserRouter>
+
       <GlobalStyle />
       <ScrollToTop />
       <Navbar />
@@ -45,7 +46,6 @@ function App() {
         <Route path='/acceptableuseofpolicy' component={acceptableusepolicy} />
         <Route path='/resources' component={Resources} />
        </Switch>
-      
       <Footer />
       <Sidebar />
     </BrowserRouter>

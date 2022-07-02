@@ -5,7 +5,7 @@ export const homeObjOne = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Welcome to Axcessible Lending Platform',
+  topLine: 'Bill Now, Pay Later',
   headline: 'Get funded to pay essential bills. Pay back at your own pace!',
   description:
     'In a typical year, landlords file 3.7 million eviction cases. Today, the majority of poor renting families in America spend over half of their income on housing costs, and eviction is transforming their lives. Our vision is to keep families together by providing instant fund to pay bills in emergency through our AI-enabled Lending Platform!',

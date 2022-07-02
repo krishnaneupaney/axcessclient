@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
-import LoanApp from '../../pages/SignUp/LoanApp';
-
+import { Buttonn } from '../../globalStyles';
+import { MultiStepForm } from '../MultiStepForm';
+ 
 
  
 
@@ -9,19 +10,29 @@ const LoanForm = () => {
 
     return (
       <>
+       <div style={{ background: "white", fontSize: "24px", textAlign: "center"}}>Thank you for your interest at Axcess Fund!
+      <br />
+      <br />
+    <a
+      href="javascript:void(
+        window.open(
+          'https://form.jotform.com/221059210645145',
+          'blank',
+          'scrollbars=yes,
+          toolbar=no,
+          width=700,
+          height=500'
+        )
+      )
+    ">
+      <Buttonn>Apply</Buttonn>
       <br />
       <br />
       <br />
-      <h2 style={{ textAlign: "center"}}>Thank you for your interest at Axcess Fund. We're at early stage of 
-        building this platform. If you cannot wait and need 
-        immediate assistance, please fill the form below and 
-        we'll get back to you as soon as possible!</h2>
-        <br />
-        <br />
-      <LoanApp/>
-      <br />
-      <br />
-       
+      
+    </a>
+      {/* <MultiStepForm /> */}
+    </div>       
   </>
     )
 };
