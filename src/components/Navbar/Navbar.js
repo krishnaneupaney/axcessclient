@@ -69,7 +69,7 @@ function Navbar() {
                   For Lenders
                 </NavLinks>
               </NavItem> */}
-              <NavItem>
+              <NavItem className='hero_title'>
                 <NavLinks to='/bills' onClick={closeMobileMenu}>
                   Manage Bills
                 </NavLinks>

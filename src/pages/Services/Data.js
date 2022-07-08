@@ -44,13 +44,13 @@ export const homeObjSeven = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'This is Axcess Fund',
-  headline: 'Our mission moves us FORWARD - to deliver genuine financial products that improves lives',
+  topLine: '',
+  headline: 'Never pay late fees ever again',
   description:
-    "Why? Because home matters. Home is where families thrive. But money is also a fundamental ingredient of life, and unlesss you're one of the few percent of Americans with significant wealth, the ability to borrow affects you everyday. Throughout history, affordable lending has been central to unlocking mobility and opportunity - especially for thoise in need!",
+    "There are better ways to spend your hard-earn money then to pay expensive late fees. Now, that is the reality with Axcess Fund!",
   buttonLabel: 'Check your rate',
   imgStart: '',
-  img: require('../../images/family.png'),
+  img: require('../../images/takecontrol.png'),
   alt: 'Vault'
 };
 
@@ -134,3 +134,18 @@ export const homeObjFour = {
   img: require('../../images/svg-1.svg'),
   alt: 'Vault'
 };
+
+export const homeObjRentnow = {
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Axcess Rent',
+  headline: 'Rent Now, Pay Later.',
+  description:
+    'We’ll pay your rent on your due date of every month and you’ll have the time you need to pay us back.',
+  buttonLabel: 'Sign Up Now',
+  imgStart: 'start',
+  img: require('../../images/svg-1.svg'),
+  alt: 'Vault'
+};
+

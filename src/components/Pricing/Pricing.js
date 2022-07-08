@@ -24,7 +24,7 @@ function Pricing() {
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading>Getting funded with Axcess Lending Platform is Easy & Fast!</PricingHeading>
+          <PricingHeading>Getting started with Axcess Rent is Easy & Fast!</PricingHeading>
           <PricingContainer>
             <PricingCard to='/form'>
               
