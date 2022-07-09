@@ -9,7 +9,7 @@ export const homeObjOne = {
   headline: 'Get funded to pay essential bills. Plus get cash back!',
   description:
     'In a typical year, landlords file 3.7 million eviction cases. Renters dont feel their monthly Rent payments is doing them any good, until now. Axcess Fund provide Instant-fund to emergency need while being rewarded!',
-  buttonLabel: 'CHECK YOUR RATE',
+    buttonLabel: 'CHECK YOUR RATE',
    imgStart: '',
   img: require('../../images/2.svg'),
   alt: 'Fund Card',

@@ -53,6 +53,7 @@ function Home() {
   return (
     <>
     <Fade right>
+      
     <InfoSection {...homeObjOne} />
     </Fade>  
       
@@ -62,7 +63,7 @@ function Home() {
       <InfoSection {...homeObjFive} />
       <Pricing />
       <InfoSection {...homeObjFour} />
-      <InfoSection {...homeObjSeven} />
+      <InfoSection {...homeObjThree} />
     <div style={{ textAlign: "center"}}> 
       
     <Faq data={data} getRowOptions={setRowsOption} />
