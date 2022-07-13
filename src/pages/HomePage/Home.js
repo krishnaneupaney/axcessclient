@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour, homeObjFive } from './Data';
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour, homeObjFive, homeObjCashback } from './Data';
 import { InfoSection, Pricing } from '../../components';
 import {homeObjSeven } from '../Services/Data';
  import Faq from "react-faq-component";
@@ -58,7 +58,7 @@ function Home() {
     </Fade>  
       
       <h5><NavIconn />Checking won't affect your credit score<sup>1</sup></h5>
-      <InfoSection {...homeObjThree} />
+      <InfoSection {...homeObjCashback} />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjFive} />
       <Pricing />

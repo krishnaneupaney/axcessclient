@@ -6,9 +6,9 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'Bill Now, Pay Later',
-  headline: 'Get funded to pay essential bills. Plus get cash back!',
+  headline: 'Get funded to cover essential needs!',
   description:
-    'In a typical year, landlords file 3.7 million eviction cases. Renters dont feel their monthly Rent payments is doing them any good, until now. Axcess Fund provide Instant-fund to emergency need while being rewarded!',
+    'In a typical year, landlords file 3.7 million eviction cases. Axcess Fund provide Instant-decision to emergency fund you need at affordable rate & flexible repayment option',
     buttonLabel: 'CHECK YOUR RATE',
    imgStart: '',
   img: require('../../images/2.svg'),
@@ -80,6 +80,23 @@ export const homeObjThree = {
   buttonLabel: 'How this work?',
   imgStart: 'start',
   img: require('../../images/stat.jpeg'),
+  alt: 'Vault',
+  start: 'true'
+};
+export const homeObjCashback = {
+  primary: false,
+  lightBg: true,
+  lightTopLine: false,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: '',
+  headline:
+    'Cash Back everyday.',
+  description:
+    "Renter feels like their cash is being thrown. Your bank doesn't care, but we do",
+  buttonLabel: 'How this work?',
+  imgStart: 'start',
+  img: require('../../images/cashback.jpeg'),
   alt: 'Vault',
   start: 'true'
 };
