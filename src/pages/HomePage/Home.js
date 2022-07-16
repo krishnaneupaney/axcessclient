@@ -56,8 +56,8 @@ function Home() {
       
     <InfoSection {...homeObjOne} />
     </Fade>  
-      
-      <h5><NavIconn />Checking won't affect your credit score<sup>1</sup></h5>
+       
+      <h5 className='what'><NavIconn />Checking won't affect your credit score<sup>1</sup></h5>
       <InfoSection {...homeObjCashback} />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjFive} />

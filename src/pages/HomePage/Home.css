@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(235, 220, 199);
+    background-color: white;
 }
 
 data {
@@ -8,4 +8,9 @@ data {
 
 .setRowsOption {
     background-color: antiquewhite;
+}
+
+.what{
+    color: rgb(248, 22, 158);
+    text-align: center;
 }

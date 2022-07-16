@@ -96,7 +96,7 @@ export const homeObjCashback = {
     "Renter feels like their cash is being thrown. Your bank doesn't care, but we do",
   buttonLabel: 'How this work?',
   imgStart: 'start',
-  img: require('../../images/cashback.jpeg'),
+  img: require('../../images/cashback.png'),
   alt: 'Vault',
   start: 'true'
 };
