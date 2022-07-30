@@ -19,6 +19,7 @@ import LoanForm from './components/Loan/LoanForm';
 import Resources from './pages/Services/Resources';
 import Landlord from './pages/Landlord/Landlord';
 import { Bills } from './pages/Bills/Bills';
+import ContactForm from './pages/SignUp/Contact'
 
 function App() {
 
@@ -45,6 +46,7 @@ function App() {
         <Route path='/form' component={LoanForm} />
         <Route path='/acceptableuseofpolicy' component={acceptableusepolicy} />
         <Route path='/resources' component={Resources} />
+        <Route path='/contact' component={ContactForm} />
        </Switch>
       <Footer />
       <Sidebar />

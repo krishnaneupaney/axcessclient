@@ -64,7 +64,7 @@ function Home() {
       <Pricing />
       <InfoSection {...homeObjFour} />
       <InfoSection {...homeObjThree} />
-    <div style={{ textAlign: "center"}}> 
+    <div className="content" style={{ textAlign: "center"}}> 
       
     <Faq data={data} getRowOptions={setRowsOption} />
       <br />

@@ -22,10 +22,12 @@ const About = ({bounce, buttonLabel}) => {
 ​</h1>
             <br />
              <h1>Mission & Vision</h1>
-            <h2>To be as pervasive, secure, and convenient as a lending platform for those in need, while delivering a transparent and honest financial products that improve the lives of people we serve!.​ 
+            <h2>To be as pervasive, secure, and convenient as a lending platform for those in need, 
+                <br />
+                while delivering a transparent and honest financial products that improve the lives of people we serve!.​ 
                 <br />
                 <br />
-                <h2>Our ultimate vision is to be: The Only All-In-One Financial Solution Platform for Renters & Landlords</h2>
+                <h2>Grand Vision: The Only All-In-One Financial Solutions Platform for Renters & Landlords</h2>
                 <br />
                 We believe everyone should have Axcess to safe home filled with love and joy!</h2>
                 <br />
@@ -37,8 +39,7 @@ const About = ({bounce, buttonLabel}) => {
                     <b/>
                     <br />
         </div>
-        <InfoSection {...homeObjSeven} />
-        <div style={{ textAlign: "center"}}>
+         <div style={{ textAlign: "center"}}>
             <br />
         <h2>Axcess Fund is a leading artificial intelligence (AI) & ML powered lending platform designed to improve the 
            <br /> Axcess to affordable fund borrowing while reducing the risk and costs of lender for our lending partner. 

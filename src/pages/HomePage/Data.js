@@ -39,7 +39,7 @@ export const homeObjTwo = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'Easy Signups & Instant Decision',
-  headline: 'Extremely quick funding process to get money to pay bills in minutes!',
+  headline: 'Instantly get your money to pay bills in minutes!',
   description:
     "Our process is so simply, after sharing some personal information, you'll be able to see instantly how much you've been approved and instanly pay bill directly through the the portal! We do the heavy lifting so you don't have to!",
   buttonLabel: 'Learn More',
@@ -77,7 +77,7 @@ export const homeObjThree = {
     'Our Vision is to keep families togther!',
   description:
     "56% of Americans are shut-down by mainstream banking for funding! Axcess Fund helps families keep family together during difficult time by providing platform to get instant funding to pay the essential bills so they can focus on what matter to them, themselves!",
-  buttonLabel: 'How this work?',
+  buttonLabel: 'How this works?',
   imgStart: 'start',
   img: require('../../images/stat.jpeg'),
   alt: 'Vault',
@@ -93,8 +93,8 @@ export const homeObjCashback = {
   headline:
     'Cash Back everyday.',
   description:
-    "Renter feels like their cash is being thrown. Your bank doesn't care, but we do",
-  buttonLabel: 'How this work?',
+    "Renter feels like their cash is being thrown away. Your bank doesn't care, but we do",
+  buttonLabel: 'How this works?',
   imgStart: 'start',
   img: require('../../images/cashback.png'),
   alt: 'Vault',

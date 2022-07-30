@@ -14,3 +14,7 @@ data {
     color: rgb(248, 22, 158);
     text-align: center;
 }
+
+ .content {
+    text-align: center;
+ }

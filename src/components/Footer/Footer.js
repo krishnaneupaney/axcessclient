@@ -53,8 +53,8 @@ function Footer() {
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Consumer</FooterLinkTitle>
-            <FooterLink to='/sign-up'>Contact</FooterLink>
-            <FooterLink to='/sign-up'>Waitlist</FooterLink>
+            <FooterLink to='/contact'>Contact</FooterLink>
+            <FooterLink to='/contact'>Waitlist</FooterLink>
             <FooterLink to='/form'>Help</FooterLink>
             <FooterLink to='/privacy'>Privacy</FooterLink>
           </FooterLinkItems>
@@ -62,7 +62,7 @@ function Footer() {
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>Partner</FooterLinkTitle>
-            <FooterLink to='/sign-up'>Contact Us</FooterLink>
+            <FooterLink to='/contact'>Contact Us</FooterLink>
             <FooterLink to='/lender'>Lenders</FooterLink>
             <FooterLink to='/licenses'>Licenses</FooterLink>
             <FooterLink to='/terms'>Terms</FooterLink>
@@ -72,7 +72,7 @@ function Footer() {
             <FooterLink to='/resources'>Resources</FooterLink>
              <FooterLink >Blog</FooterLink>
              <FooterLink to='/terms'>Agreements</FooterLink>
-            <FooterLink to='/sign-up'>Complaint</FooterLink>
+            <FooterLink to='/contact'>Complaint</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
