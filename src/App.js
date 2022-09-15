@@ -20,6 +20,7 @@ import Resources from './pages/Services/Resources';
 import Landlord from './pages/Landlord/Landlord';
 import { Bills } from './pages/Bills/Bills';
 import ContactForm from './pages/SignUp/Contact'
+import CustomerStories from './pages/Stories/CustomerStories';
 
 function App() {
 
@@ -32,9 +33,10 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/renters' component={Services} />
+        <Route path='/landlords' component={Landlord} />
         <Route path='/lenders' component={Lenders} />
         <Route path='/bills' component={Bills} />
-        <Route path='/landlords' component={Landlord} />
+        <Route path='/stories' component={CustomerStories} />
         <Route path='/sign-up' component={SignUp} />
         <Route path='/about' component={About} />
         <Route path='/lender' component={Lender} />

@@ -93,7 +93,7 @@ export const homeObjCashback = {
   headline:
     'Cash Back everyday.',
   description:
-    "Renter feels like their cash is being thrown away. Your bank doesn't care, but we do",
+    "Do you feel like you are throwing away your Rent's cash every month? Your bank doesn't care, but we do! Get up-to 5% cash-back using Axcess Debit Card ",
   buttonLabel: 'How this works?',
   imgStart: 'start',
   img: require('../../images/cashback.png'),

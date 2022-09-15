@@ -14,7 +14,7 @@ import {
   NavItemBtn,
   NavLinks,
   NavBtnLink,
-  Img
+  Img,
 } from './Navbar.elements';
  
 function Navbar() {
@@ -62,6 +62,7 @@ function Navbar() {
               <NavItem>
                 <NavLinks to='/landlords' onClick={closeMobileMenu}>
                   Landlords
+                <h1 style={{opacity: 1, fontSize: "12px", transform: 'translate(calc(.4375 * 10px), calc(-.5 * 10px)) scale(1) rotate(0deg)', color: 'blue'}}>coming <br /> soon</h1>
                 </NavLinks>
               </NavItem>
               {/* <NavItem>

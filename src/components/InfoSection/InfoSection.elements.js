@@ -48,7 +48,7 @@ export const ImgWrapper = styled.div`
 
 export const TopLine = styled.div`
   color: ${({ lightTopLine }) => (lightTopLine ? 'black' : 'black')};
-  font-size: 18px;
+  font-size: 28px;
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;

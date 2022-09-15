@@ -132,7 +132,7 @@ class ContactForm extends React.Component {
                     : ''
                   }
                 </div>
-                <p className="text-center mb-0"><input type="submit" className="btn btn-primary btn-lg w-100 text-uppercase" value="Submit Now" /></p>
+                <p className="text-center mb-0" ><input type="submit" className="btn btn-primary btn-lg w-100 text-uppercase" value="Submit Now" /></p>
               </form>
 
             </div>

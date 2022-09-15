@@ -51,14 +51,17 @@ function Home() {
   };
 
   return (
-    <>
+    <> 
     <Fade right>
       
-    <InfoSection {...homeObjOne} />
+        <InfoSection {...homeObjCashback} />
+    
     </Fade>  
        
-      <h5 className='what'><NavIconn />Checking won't affect your credit score<sup>1</sup></h5>
-      <InfoSection {...homeObjCashback} />
+          <InfoSection {...homeObjOne} />
+
+            <h5 className='what'><NavIconn />Checking won't affect your credit score<sup>1</sup></h5>
+
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjFive} />
       <Pricing />
