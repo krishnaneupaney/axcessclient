@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour, homeObjFive, homeObjCashback } from './Data';
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour, homeObjFive, homeObjCashback, homeObjRenter } from './Data';
 import { InfoSection, Pricing } from '../../components';
 import {homeObjSeven } from '../Services/Data';
  import Faq from "react-faq-component";
@@ -57,6 +57,9 @@ function Home() {
         <InfoSection {...homeObjCashback} />
     
     </Fade>  
+    <Fade>
+      <InfoSection {...homeObjRenter} />
+    </Fade>
        
           <InfoSection {...homeObjOne} />
 

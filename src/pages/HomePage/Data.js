@@ -101,8 +101,26 @@ export const homeObjCashback = {
   start: 'true'
 };
 
+export const homeObjRenter = {
+  primary: false,
+  lightBg: true,
+  lightTopLine: false,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Renter',
+  headline:
+    'Build credit by renting',
+  description:
+    "Axcess Fund Help people build credit through renting, which is the most consistent payment you make every month. You deserve credit (+scores)!",
+  buttonLabel: 'How this works?',
+  imgStart: 'start',
+  img: require('../../images/creditscore.jpeg'),
+  alt: 'Vault',
+  start: 'true'
+};
 
 
+ 
 
 export const homeObjFour = {
   primary: true,
