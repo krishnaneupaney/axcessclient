@@ -21,13 +21,11 @@ const About = ({bounce, buttonLabel}) => {
 
 ​</h1>
             <br />
-             <h1>Mission & Vision</h1>
-            <h2>To be as pervasive, secure, and convenient as a lending platform for those in need, 
+             <h1>Mission & Vision:</h1>
+            <h2> 
+         
                 <br />
-                while delivering a transparent and honest financial products that improve the lives of people we serve!.​ 
-                <br />
-                <br />
-                <h2>Grand Vision: The Only All-In-One Financial Solutions Platform for Renters & Landlords</h2>
+                <h2>The Only All-In-One Financial Solutions Platform for Renters & Landlords</h2>
                 <br />
                 We believe everyone should have Axcess to safe home filled with love and joy!</h2>
                 <br />

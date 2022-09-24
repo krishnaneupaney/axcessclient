@@ -50,7 +50,7 @@ function SignUp() {
     <br />
     <br />
     <br />
-    <Button onClick={logout}>Logout</Button>
+    {/* <Button onClick={logout}>Logout</Button> */}
     <h1>
       <br />
     

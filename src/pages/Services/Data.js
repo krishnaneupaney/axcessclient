@@ -24,6 +24,19 @@ export const homeObjCredit = {
   img: require('../../images/credit.png'),
   alt: 'Credit Card'
 };
+export const homeObjBill = {
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'You deserve easy way to pay bills',
+  headline: 'Get rewarded paying bills on time',
+  description:
+    '  Build your credit score by paying bills on time and reporting your on-time bills payments to the major credit bureaus. As monthly rents, utilities bills are also consistent monthly payment you make, and we believe it should work for you to build your credit score.',
+  buttonLabel: 'Start building my credit',
+   imgStart: '',
+  img: require('../../images/billpay.png'),
+  alt: 'Credit Card'
+};
 
 export const homeObjTwo = {
   lightBg: false,

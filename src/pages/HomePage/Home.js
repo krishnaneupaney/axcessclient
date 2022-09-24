@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour, homeObjFive, homeObjCashback, homeObjRenter } from './Data';
 import { InfoSection, Pricing } from '../../components';
-import {homeObjSeven } from '../Services/Data';
- import Faq from "react-faq-component";
+import {homeObjBill, homeObjSeven } from '../Services/Data';
+import Faq from "react-faq-component";
 import '../SignUp/FAQ.css'
 import '../HomePage/Home.css'
 import {  NavIconn } from '../../components/Navbar/Navbar.elements';
@@ -64,7 +64,8 @@ function Home() {
           <InfoSection {...homeObjOne} />
 
             <h5 className='what'><NavIconn />Checking won't affect your credit score<sup>1</sup></h5>
-
+      
+      <InfoSection {...homeObjBill} />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjFive} />
       <Pricing />
