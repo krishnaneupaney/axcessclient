@@ -21,7 +21,8 @@ import Landlord from './pages/Landlord/Landlord';
 import { Bills } from './pages/Bills/Bills';
 import ContactForm from './pages/SignUp/Contact'
 import CustomerStories from './pages/Stories/CustomerStories';
-
+import RentReport from './pages/SignUp/RentReport';
+    
 function App() {
 
   return (
@@ -46,9 +47,11 @@ function App() {
         <Route path='/why' component={Ourwhy} />
         <Route path='/auth' component={Auth} />
         <Route path='/form' component={LoanForm} />
+        <Route path='/report' component={RentReport} />
         <Route path='/acceptableuseofpolicy' component={acceptableusepolicy} />
         <Route path='/resources' component={Resources} />
         <Route path='/contact' component={ContactForm} />
+   
        </Switch>
       <Footer />
       <Sidebar />

@@ -1,7 +1,7 @@
 import React from 'react';
 import { InfoSection, Pricing } from '../../components';
-import { homeObjOne, homeObjRentnow, homeObjSeven} from '../Services/Data';
-import { homeObjCashback } from '../HomePage/Data';
+import { homeObjOne, homeObjRentnow, homeObjCredit, homeObjSeven} from '../Services/Data';
+import { homeObjCashback,  } from '../HomePage/Data';
 import Fade from 'react-reveal/Fade';
   
 function Services() {
@@ -23,6 +23,8 @@ function Services() {
          <div style={style}>Pay rent on
 your own terms.</div>
           <Fade top>
+          
+          <InfoSection {...homeObjCredit} />
           <InfoSection {...homeObjCashback} />
 
         <InfoSection {...homeObjOne} />
